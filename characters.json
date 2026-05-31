@@ -614,9 +614,9 @@
     "secondary_color": "#333A45",
     "accent_color": "#C0C0C0",
     "eye_color": "#E6E6E6",
-    "special_features": "Many silver star-scales all over body; animus magic; mind reading; prophecy",
-    "description": "A legendary ancient NightWing with all three magical gifts.",
-    "main_detail": "Darkstalker is a legendary NightWing from two thousand years ago. He had all three NightWing gifts plus animus magic, making him the most powerful dragon ever. Clearsight had to trap him in stone to stop him.",
+    "special_features": "NightWing/IceWing hybrid; many silver star-scales all over body; animus magic; mind reading; prophecy",
+    "description": "A legendary ancient NightWing/IceWing hybrid with all three magical gifts.",
+    "main_detail": "Darkstalker is a legendary NightWing from two thousand years ago. His mother Foeslayer was a NightWing and his father Arctic was an IceWing — that's why he has silver star-scales all over his body. He had all three NightWing gifts plus animus magic, making him the most powerful dragon ever. Clearsight had to trap him in stone to stop him.",
     "books": ["Legends: Darkstalker", "Book 9", "Book 10"],
     "fun_facts": [
       "He has silver scales all over his body like a night sky full of stars.",
@@ -1046,6 +1046,26 @@
       "She is one of several hybrid dragons in the SandWing kingdom."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Onyx",
+    "image": "",
+    "skip_image": true
+  },
+  {
+    "name": "Listener",
+    "tribe": "NightWing",
+    "main_color": "#1A1A2E",
+    "secondary_color": "#9BB7D4",
+    "accent_color": "#E0E5EC",
+    "eye_color": "#4A6B9B",
+    "special_features": "Part NightWing, part IceWing; can read minds; pale-tinted scales",
+    "description": "Whiteout's son — a quiet, kind hybrid dragon.",
+    "main_detail": "Listener is Whiteout's son, which makes him part NightWing and part IceWing. He has the NightWing gift of mind reading. He and his mother went into hiding to escape Darkstalker.",
+    "books": ["Legends: Darkstalker"],
+    "fun_facts": [
+      "His mother Whiteout is also a NightWing/IceWing hybrid — so Listener is mostly NightWing with a quarter IceWing.",
+      "He has the NightWing power to hear other dragons' thoughts.",
+      "His descendants live in the hidden town of Sanctuary, far from other dragons."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Listener",
     "image": "",
     "skip_image": true
   }
