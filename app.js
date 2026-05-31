@@ -10,8 +10,8 @@ const FANDOM_BASE = "https://wingsoffire.fandom.com/wiki/Special:FilePath/";
 // reliable (color-shifters, side characters, Pantala-arc dragons, or already
 // flagged as wrong). They appear only when typed into the name search.
 const LOW_CONFIDENCE = new Set([
-  "Auklet", "Io", "Cricket", "Mangrove", "Jambu", "Tamarin",
-  "Pike", "Cliff", "Bumblebee", "Swordtail", "Willow", "Hazel"
+  "Auklet", "Mangrove", "Jambu", "Tamarin",
+  "Pike", "Cliff", "Bumblebee", "Swordtail", "Willow"
 ]);
 
 let characters = [];
@@ -26,6 +26,11 @@ async function loadCharacters() {
 }
 
 function imageCandidates(character) {
+  // Explicit opt-out: force the colored placeholder (used when the wiki's
+  // canonical filename resolves to fan-edits / memes / inappropriate art).
+  if (character.skip_image === true) {
+    return [];
+  }
   if (character.image && character.image.trim() !== "") {
     return [character.image];
   }
@@ -51,16 +56,63 @@ function setTribeVars(el, character) {
   el.style.setProperty("--tribe-color", `var(--${character.tribe})`);
 }
 
-function makePlaceholder(character, glyph = DRAGON_GLYPH) {
+// Cute baby-dragon silhouette SVG, colored from the character's palette.
+// Used as the placeholder when no canon image is available (or skipped).
+const DRAGON_SVG = `
+<svg class="dragon-svg" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <!-- Tail wrapping behind/around -->
+  <path d="M 178 178 Q 218 178 218 140 Q 218 108 188 108 L 175 108"
+        stroke="var(--main-color)" stroke-width="18" stroke-linecap="round" fill="none"/>
+  <path d="M 222 122 L 238 110 L 232 138 Z" fill="var(--accent-color)"/>
+  <!-- Wings folded behind body -->
+  <path d="M 70 112 Q 42 88 56 56 Q 80 74 90 108 Z" fill="var(--secondary-color)"/>
+  <path d="M 170 112 Q 198 88 184 56 Q 160 74 150 108 Z" fill="var(--secondary-color)"/>
+  <!-- Body -->
+  <ellipse cx="120" cy="162" rx="62" ry="46" fill="var(--main-color)"/>
+  <!-- Belly highlight -->
+  <ellipse cx="120" cy="172" rx="40" ry="26" fill="var(--secondary-color)" opacity="0.7"/>
+  <!-- Belly accent dots -->
+  <circle cx="104" cy="172" r="3" fill="var(--accent-color)" opacity="0.55"/>
+  <circle cx="136" cy="172" r="3" fill="var(--accent-color)" opacity="0.55"/>
+  <!-- Head -->
+  <ellipse cx="120" cy="94" rx="54" ry="50" fill="var(--main-color)"/>
+  <!-- Horns -->
+  <path d="M 86 60 Q 76 30 92 26 Q 102 38 104 56 Z" fill="var(--main-color)"/>
+  <path d="M 154 60 Q 164 30 148 26 Q 138 38 136 56 Z" fill="var(--main-color)"/>
+  <!-- Horn highlights -->
+  <path d="M 92 38 L 96 50 L 92 56 Z" fill="white" opacity="0.25"/>
+  <path d="M 148 38 L 144 50 L 148 56 Z" fill="white" opacity="0.25"/>
+  <!-- Snout/muzzle area -->
+  <ellipse cx="120" cy="118" rx="26" ry="14" fill="var(--secondary-color)" opacity="0.55"/>
+  <!-- Eye whites -->
+  <ellipse cx="100" cy="92" rx="13" ry="15" fill="#ffffff"/>
+  <ellipse cx="140" cy="92" rx="13" ry="15" fill="#ffffff"/>
+  <!-- Pupils -->
+  <ellipse cx="100" cy="95" rx="7" ry="9.5" fill="#1c1c1c"/>
+  <ellipse cx="140" cy="95" rx="7" ry="9.5" fill="#1c1c1c"/>
+  <!-- Eye sparkles (big top) -->
+  <ellipse cx="97" cy="88" rx="3" ry="4" fill="white"/>
+  <ellipse cx="137" cy="88" rx="3" ry="4" fill="white"/>
+  <!-- Eye sparkles (small bottom) -->
+  <circle cx="103" cy="100" r="1.6" fill="white" opacity="0.85"/>
+  <circle cx="143" cy="100" r="1.6" fill="white" opacity="0.85"/>
+  <!-- Cheek blush -->
+  <ellipse cx="84" cy="112" rx="7.5" ry="4" fill="#ff8c8c" opacity="0.6"/>
+  <ellipse cx="156" cy="112" rx="7.5" ry="4" fill="#ff8c8c" opacity="0.6"/>
+  <!-- Smile -->
+  <path d="M 108 122 Q 120 132 132 122" stroke="#1c1c1c" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+</svg>`;
+
+function makePlaceholder(character) {
   const wrap = document.createElement("div");
   wrap.className = "placeholder-content";
-  const g = document.createElement("span");
-  g.className = "dragon-glyph";
-  g.textContent = glyph;
+  const svgWrap = document.createElement("div");
+  svgWrap.className = "dragon-svg-wrap";
+  svgWrap.innerHTML = DRAGON_SVG;
   const label = document.createElement("span");
   label.className = "placeholder-label";
-  label.textContent = `${character.name}'s colors`;
-  wrap.appendChild(g);
+  label.textContent = character.name;
+  wrap.appendChild(svgWrap);
   wrap.appendChild(label);
   return wrap;
 }
