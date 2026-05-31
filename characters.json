@@ -1660,11 +1660,11 @@
   },
   {
     "name": "Peacemaker",
-    "tribe": "NightWing",
-    "main_color": "#0B0B14",
-    "secondary_color": "#2D1B4E",
-    "accent_color": "#C0C0C0",
-    "eye_color": "#3CB371",
+    "tribe": "Unknown",
+    "main_color": "#050806",
+    "secondary_color": "#14211B",
+    "accent_color": "#2E563B",
+    "eye_color": "#A8B86B",
     "special_features": "Part NightWing, part SandWing; green eyes from his mother",
     "description": "A young hybrid dragonet who wants to bring peace.",
     "main_detail": "Peacemaker is Moonwatcher and Qibli's son — part NightWing and part SandWing. He has green eyes like his mother and tries to keep peace between dragons.",
@@ -1678,15 +1678,15 @@
       "He believes dragons can solve problems by talking instead of fighting."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Peacemaker",
-    "image": ""
+    "image": "https://static.wikia.nocookie.net/wingsoffire/images/4/41/PeacemakerTemplateSSE.png/revision/latest?cb=20210911185109"
   },
   {
     "name": "Lady Jewel",
     "tribe": "HiveWing",
-    "main_color": "#E6B41A",
-    "secondary_color": "#F5D466",
-    "accent_color": "#1A1A1A",
-    "eye_color": "#5C2A0A",
+    "main_color": "#D8AA1A",
+    "secondary_color": "#F2D95C",
+    "accent_color": "#3A1D08",
+    "eye_color": "#8FAE4A",
     "special_features": "HiveWing noblewoman; Cricket's mother",
     "description": "Cricket's mother — a wealthy HiveWing noblewoman.",
     "main_detail": "Lady Jewel is Cricket's mother. She is a rich HiveWing who follows Queen Wasp's rules.",
@@ -1700,15 +1700,15 @@
       "She is controlled by Queen Wasp like all other HiveWings."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Lady_Jewel",
-    "image": ""
+    "image": "https://static.wikia.nocookie.net/wingsoffire/images/b/bd/JewelTemplateLoopy.png/revision/latest?cb=20260520023159"
   },
   {
     "name": "Lady Scarab",
     "tribe": "HiveWing",
-    "main_color": "#C28A0F",
-    "secondary_color": "#E6C45A",
-    "accent_color": "#1A1A1A",
-    "eye_color": "#8B0000",
+    "main_color": "#BCA34B",
+    "secondary_color": "#E8D990",
+    "accent_color": "#171711",
+    "eye_color": "#7B2530",
     "special_features": "Old HiveWing noblewoman; secret rebel",
     "description": "A grumpy old HiveWing who secretly opposes Queen Wasp.",
     "main_detail": "Lady Scarab is an old HiveWing aristocrat who refuses to be controlled by Queen Wasp. She is grumpy but brave.",
@@ -1723,15 +1723,15 @@
       "Scarab beetles are tough — fitting for her stubborn nature."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Lady_Scarab",
-    "image": ""
+    "image": "https://static.wikia.nocookie.net/wingsoffire/images/0/02/ScarabTemplateSSE.png/revision/latest?cb=20241203015017"
   },
   {
     "name": "Katydid",
     "tribe": "HiveWing",
-    "main_color": "#D4A017",
-    "secondary_color": "#F5D466",
-    "accent_color": "#1A1A1A",
-    "eye_color": "#5C2A0A",
+    "main_color": "#D0A000",
+    "secondary_color": "#F0CF22",
+    "accent_color": "#5A2E08",
+    "eye_color": "#273313",
     "special_features": "HiveWing; Cricket's older sister",
     "description": "Cricket's older HiveWing sister.",
     "main_detail": "Katydid is Cricket's older sister. She lives with their mother Lady Jewel.",
@@ -1745,15 +1745,15 @@
       "Like most HiveWings, she is controlled by Queen Wasp."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Katydid",
-    "image": ""
+    "image": "https://static.wikia.nocookie.net/wingsoffire/images/f/fa/KatydidTemplateSSE.png/revision/latest?cb=20201226224654"
   },
   {
     "name": "Caddele",
     "tribe": "HiveWing",
-    "main_color": "#D4A017",
-    "secondary_color": "#F5D466",
-    "accent_color": "#1A1A1A",
-    "eye_color": "#5C2A0A",
+    "main_color": "#C85819",
+    "secondary_color": "#E77B25",
+    "accent_color": "#1B0805",
+    "eye_color": "#6B2E1A",
     "special_features": "HiveWing; Cricket's grandmother",
     "description": "Cricket's grandmother — Lady Jewel's mother.",
     "main_detail": "Caddele is Cricket's grandmother. She is Lady Jewel's mother, making her part of Cricket's HiveWing family.",
@@ -1769,16 +1769,16 @@
       "Lady Jewel is her daughter.",
       "Like most HiveWings, she is controlled by Queen Wasp's mind."
     ],
-    "wiki_url": "https://wingsoffire.fandom.com/wiki/Caddele",
-    "image": ""
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Cadelle",
+    "image": "https://static.wikia.nocookie.net/wingsoffire/images/a/ad/CadelleTemplateS978.png/revision/latest?cb=20210829061555"
   },
   {
     "name": "Sequoia",
     "tribe": "LeafWing",
-    "main_color": "#2E5B2E",
-    "secondary_color": "#6B8E4E",
-    "accent_color": "#8B4513",
-    "eye_color": "#FFD700",
+    "main_color": "#45672D",
+    "secondary_color": "#657833",
+    "accent_color": "#503C20",
+    "eye_color": "#C7D3A0",
     "special_features": "Ancient LeafWing queen; leafspeak",
     "description": "An ancient LeafWing queen — wise and powerful.",
     "main_detail": "Sequoia is the ancient LeafWing queen who has hidden her tribe in the Poison Jungle for fifty years. She is one of the oldest queens alive.",
@@ -1793,15 +1793,15 @@
       "She has the gift of leafspeak — she can command plants."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Sequoia",
-    "image": ""
+    "image": "https://static.wikia.nocookie.net/wingsoffire/images/a/a6/SequoiaTemplateS978.png/revision/latest?cb=20251029155600"
   },
   {
     "name": "Pokeweed",
     "tribe": "LeafWing",
-    "main_color": "#3A6B3A",
-    "secondary_color": "#7AA66A",
-    "accent_color": "#5C2A4A",
-    "eye_color": "#8B4513",
+    "main_color": "#1D2C13",
+    "secondary_color": "#354D22",
+    "accent_color": "#0D1408",
+    "eye_color": "#C4C89A",
     "special_features": "LeafWing; can use leafspeak",
     "description": "A LeafWing in the Poison Jungle.",
     "main_detail": "Pokeweed is a LeafWing from the Poison Jungle. LeafWings can speak with plants and use them in battle.",
@@ -1816,15 +1816,15 @@
       "LeafWings have leaf-shaped scales for camouflage."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Pokeweed",
-    "image": ""
+    "image": "https://static.wikia.nocookie.net/wingsoffire/images/1/12/PokeweedTemplateS978.png/revision/latest?cb=20220406015412"
   },
   {
     "name": "Mulberry",
-    "tribe": "SilkWing",
-    "main_color": "#8B2D5C",
-    "secondary_color": "#C97FA3",
-    "accent_color": "#5C2A4A",
-    "eye_color": "#FFD700",
+    "tribe": "Unknown",
+    "main_color": "#A81235",
+    "secondary_color": "#E86A2E",
+    "accent_color": "#F2C645",
+    "eye_color": "#7EA84B",
     "special_features": "SilkWing/LeafWing hybrid; four wings",
     "description": "A rare hybrid dragonet — part SilkWing, part LeafWing.",
     "main_detail": "Mulberry is a hybrid dragonet — part SilkWing and part LeafWing. Hybrids of these tribes are very rare.",
@@ -1839,7 +1839,7 @@
       "SilkWing/LeafWing hybrids are extremely rare since the tribes were separated for years."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Mulberry",
-    "image": ""
+    "image": "https://static.wikia.nocookie.net/wingsoffire/images/a/af/MulberryTemplateS978.png/revision/latest?cb=20260304160810"
   },
   {
     "name": "Aurora",
@@ -1887,10 +1887,10 @@
   {
     "name": "Quokka",
     "tribe": "Unknown",
-    "main_color": "#B8A088",
-    "secondary_color": "#9B8676",
-    "accent_color": "#6B5B73",
-    "eye_color": "#4A6B5A",
+    "main_color": "#E98922",
+    "secondary_color": "#F6B14A",
+    "accent_color": "#2B5B63",
+    "eye_color": "#2F9CC2",
     "special_features": "A hybrid dragon",
     "description": "A hybrid dragon — tribe mix unknown.",
     "main_detail": "Quokka is a hybrid dragon — her exact tribe mix is a mystery!",
@@ -1904,7 +1904,7 @@
       "Hybrids are becoming more common as dragons make friends across tribes."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Quokka",
-    "image": ""
+    "image": "https://static.wikia.nocookie.net/wingsoffire/images/7/7f/QuokkaProfile.png/revision/latest?cb=20260323155004"
   },
   {
     "name": "Platypus",
