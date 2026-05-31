@@ -401,10 +401,10 @@
   {
     "name": "Gill",
     "tribe": "SeaWing",
-    "main_color": "#2F6F8F",
-    "secondary_color": "#9ADBE8",
-    "accent_color": "#D8F6FF",
-    "eye_color": "#1E90FF",
+    "main_color": "#3A6B4F",
+    "secondary_color": "#A8D8B0",
+    "accent_color": "#D5EFD5",
+    "eye_color": "#5A8BC9",
     "special_features": "SeaWing king; driven mad in Scarlet's arena",
     "description": "Tsunami's father. He was a SeaWing king who was kept in the arena too long.",
     "main_detail": "Gill was the SeaWing king and Tsunami's father. He was captured by SkyWings and kept away from water for years, which made him go mad. Tsunami met him in Queen Scarlet's arena.",
@@ -1009,19 +1009,19 @@
   },
   {
     "name": "Silverspot",
-    "tribe": "IceWing",
+    "tribe": "SilkWing",
     "main_color": "#E6E6E6",
     "secondary_color": "#F7F7F7",
     "accent_color": "#B0B0B0",
     "eye_color": "#C0C0C0",
-    "special_features": "Pale silver-white IceWing scales",
-    "description": "An IceWing with silvery-white scales.",
-    "main_detail": "Silverspot is an IceWing with pale silver-white scales. IceWings live in the cold north of Pyrrhia.",
+    "special_features": "Pale silver-white SilkWing with four wings and silk-spinning wrists",
+    "description": "A SilkWing with shimmery silver-white scales.",
+    "main_detail": "Silverspot is a SilkWing with pale silver-white scales. SilkWings have four wings and can spin silk from their wrists.",
     "books": ["Book 14"],
     "fun_facts": [
-      "IceWings have serrated claws perfect for gripping ice.",
-      "IceWings can breathe a cold frost-blast in battle.",
-      "They are ranked from First Circle (highest) to Seventh Circle in their society."
+      "SilkWings have four wings — twice as many as Pyrrhia dragons.",
+      "They spin silk from their wrists once they reach age 6 (their Metamorphosis).",
+      "SilkWings can come in almost any color."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Silverspot",
     "image": "",
@@ -1064,5 +1064,309 @@
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Listener",
     "image": "https://static.wikia.nocookie.net/wingsoffire/images/a/a2/ListenerTemplateSkyla.png/revision/latest?cb=20251116233058"
+  },
+  {
+    "name": "Sora",
+    "tribe": "MudWing",
+    "main_color": "#8B4513",
+    "secondary_color": "#D2A679",
+    "accent_color": "#A0522D",
+    "eye_color": "#654321",
+    "special_features": "MudWing in Clay's troop; gentle but troubled",
+    "description": "One of Clay's MudWing siblings — sweet but sad.",
+    "main_detail": "Sora is one of Clay's MudWing siblings — a member of his troop. She was very upset about losing their brother, and her grief led her into trouble.",
+    "books": ["Book 4", "Book 5"],
+    "fun_facts": [
+      "She is one of Clay's troop-siblings.",
+      "MudWing troops stay together their whole lives, like a family.",
+      "She was very close to their lost brother."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Sora",
+    "image": ""
+  },
+  {
+    "name": "Moorhen",
+    "tribe": "MudWing",
+    "main_color": "#5C2F1F",
+    "secondary_color": "#C89863",
+    "accent_color": "#3A1A0C",
+    "eye_color": "#B8860B",
+    "special_features": "Queen of the MudWings",
+    "description": "Queen of the MudWings — strong and wise.",
+    "main_detail": "Queen Moorhen is the leader of the MudWings. She is strong, fair, and protective of her tribe.",
+    "books": ["Book 5"],
+    "fun_facts": [
+      "She rules the MudWings from the swamps.",
+      "MudWings are very loyal to their queen and their troop-mates.",
+      "MudWings can hold their breath for hours underwater."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Queen_Moorhen",
+    "image": ""
+  },
+  {
+    "name": "Marsh",
+    "tribe": "MudWing",
+    "main_color": "#8B4513",
+    "secondary_color": "#CD853F",
+    "accent_color": "#5C3317",
+    "eye_color": "#8B5A2B",
+    "special_features": "MudWing in Clay's troop",
+    "description": "One of Clay's MudWing siblings — quiet and steady.",
+    "main_detail": "Marsh is one of Clay's MudWing siblings. He is a steady, dependable member of their troop.",
+    "books": ["Book 4", "Book 5", "Book 6", "Book 7"],
+    "fun_facts": [
+      "He's one of Clay's troop-siblings.",
+      "MudWings often have brown and amber scales for camouflage in the swamps.",
+      "MudWing troops are bonded for life."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Marsh",
+    "image": ""
+  },
+  {
+    "name": "Reed",
+    "tribe": "MudWing",
+    "main_color": "#8B4513",
+    "secondary_color": "#D2A679",
+    "accent_color": "#5C3317",
+    "eye_color": "#654321",
+    "special_features": "MudWing in Clay's troop; the bigwings",
+    "description": "Clay's brother and bigwings of his MudWing troop.",
+    "main_detail": "Reed is one of Clay's MudWing siblings. After Clay left, Reed took over as bigwings (the protector) of their troop.",
+    "books": ["Book 4", "Book 5"],
+    "fun_facts": [
+      "When the bigwings of a MudWing troop is missing, another dragon steps up.",
+      "He helps lead Clay's siblings.",
+      "MudWings born from blood-red eggs are fireproof."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Reed",
+    "image": ""
+  },
+  {
+    "name": "Ostrich",
+    "tribe": "SandWing",
+    "main_color": "#E6CCA1",
+    "secondary_color": "#FFF5D6",
+    "accent_color": "#A88A4A",
+    "eye_color": "#5C4A2E",
+    "special_features": "SandWing student; venomous tail barb",
+    "description": "A friendly SandWing student.",
+    "main_detail": "Ostrich is a sweet SandWing who befriends Moonwatcher at Jade Mountain Academy.",
+    "books": ["Book 6"],
+    "fun_facts": [
+      "She is a Jade Mountain Academy student.",
+      "All SandWings have venomous tail barbs.",
+      "Her name comes from a bird that can't fly but runs very fast."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Ostrich",
+    "image": ""
+  },
+  {
+    "name": "Cobra",
+    "tribe": "SandWing",
+    "main_color": "#C9A857",
+    "secondary_color": "#EDDB9C",
+    "accent_color": "#5C4A2E",
+    "eye_color": "#2F2412",
+    "special_features": "Qibli's mother; sleek and dangerous SandWing",
+    "description": "Qibli's mother — clever and a little scary.",
+    "main_detail": "Cobra is Qibli's mother. She is a smart but harsh SandWing who lived in the Scorpion Den.",
+    "books": ["Book 10"],
+    "fun_facts": [
+      "She is Qibli's mother.",
+      "She wasn't always kind to Qibli when he was little.",
+      "Her name comes from a venomous snake — fitting for a SandWing."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Cobra",
+    "image": ""
+  },
+  {
+    "name": "Vulture",
+    "tribe": "SandWing",
+    "main_color": "#9B7B47",
+    "secondary_color": "#D6BA7C",
+    "accent_color": "#2A1F12",
+    "eye_color": "#3D2612",
+    "special_features": "Qibli's grandfather; cruel old SandWing",
+    "description": "Qibli's frightening grandfather — leader of bad dragons.",
+    "main_detail": "Vulture is Qibli's grandfather and a cruel leader in the Scorpion Den. He has caused a lot of trouble for the SandWings.",
+    "books": ["Book 10"],
+    "fun_facts": [
+      "He is Cobra's father and Qibli's grandfather.",
+      "Vultures eat dead things — a scary name for a SandWing.",
+      "He runs a gang in the Scorpion Den."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Vulture",
+    "image": ""
+  },
+  {
+    "name": "Eagle",
+    "tribe": "SkyWing",
+    "main_color": "#C0392B",
+    "secondary_color": "#E67E22",
+    "accent_color": "#8B1A0C",
+    "eye_color": "#FFD700",
+    "special_features": "SkyWing soldier",
+    "description": "A SkyWing soldier from Queen Ruby's army.",
+    "main_detail": "Eagle is a SkyWing who serves in Queen Ruby's army. SkyWings are known for being fast, strong fliers.",
+    "books": ["Book 7", "Book 8"],
+    "fun_facts": [
+      "SkyWings are the fastest flyers in Pyrrhia.",
+      "Eagles are real birds known for their sharp eyesight.",
+      "SkyWings can breathe fire."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Eagle",
+    "image": ""
+  },
+  {
+    "name": "Fathom",
+    "tribe": "SeaWing",
+    "main_color": "#1E5A8C",
+    "secondary_color": "#7FC8E8",
+    "accent_color": "#D5EFFA",
+    "eye_color": "#4682B4",
+    "special_features": "Ancient SeaWing prince; animus magic",
+    "description": "An ancient SeaWing prince who was Clearsight's friend.",
+    "main_detail": "Fathom was a SeaWing prince from two thousand years ago. He was an animus dragon and Clearsight's best friend. He promised never to use his magic to hurt anyone.",
+    "books": ["Legends: Darkstalker"],
+    "fun_facts": [
+      "He was Darkstalker's friend before things went wrong.",
+      "He stopped using animus magic to protect his soul.",
+      "He hid in the Rainforest with the RainWings to stay safe."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Fathom",
+    "image": ""
+  },
+  {
+    "name": "Albatross",
+    "tribe": "SeaWing",
+    "main_color": "#7CA8D1",
+    "secondary_color": "#C8E0F0",
+    "accent_color": "#E8F4FA",
+    "eye_color": "#4A6B8C",
+    "special_features": "Ancient SeaWing king; animus magic drove him mad",
+    "description": "An ancient SeaWing king who used too much animus magic.",
+    "main_detail": "Albatross was an ancient SeaWing king with very strong animus magic. He used so much of his magic that it slowly turned him evil.",
+    "books": ["Legends: Darkstalker"],
+    "fun_facts": [
+      "He was Fathom's grandfather.",
+      "Albatrosses are big seabirds — fitting for an ancient SeaWing king.",
+      "Using too much animus magic takes pieces of a dragon's soul."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Albatross",
+    "image": ""
+  },
+  {
+    "name": "Mink",
+    "tribe": "IceWing",
+    "main_color": "#E8F1F5",
+    "secondary_color": "#FFFFFF",
+    "accent_color": "#9BB7D4",
+    "eye_color": "#2F5D8C",
+    "special_features": "Small IceWing",
+    "description": "A small IceWing dragonet.",
+    "main_detail": "Mink is a small IceWing — minks are tiny silver-furred animals, fitting for an IceWing.",
+    "books": ["Book 7", "Book 14"],
+    "fun_facts": [
+      "IceWings are pale silver and white.",
+      "They have serrated claws for gripping ice.",
+      "IceWings can breathe a freezing frost-blast."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Mink",
+    "image": ""
+  },
+  {
+    "name": "Crystal",
+    "tribe": "IceWing",
+    "main_color": "#EAF4FA",
+    "secondary_color": "#FFFFFF",
+    "accent_color": "#B0CDE0",
+    "eye_color": "#2A4A7C",
+    "special_features": "IceWing princess",
+    "description": "An IceWing princess with sparkly scales.",
+    "main_detail": "Crystal is an IceWing princess. IceWing royalty has the palest, most beautiful scales.",
+    "books": ["Book 14"],
+    "fun_facts": [
+      "IceWing princesses can challenge for the throne.",
+      "IceWings are ranked from First Circle to Seventh Circle.",
+      "Her name comes from sparkly clear crystals."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Crystal",
+    "image": ""
+  },
+  {
+    "name": "Tundra",
+    "tribe": "IceWing",
+    "main_color": "#E0EAF2",
+    "secondary_color": "#F7FCFF",
+    "accent_color": "#8DAFC9",
+    "eye_color": "#1E3A6B",
+    "special_features": "Winter's mother; strict IceWing",
+    "description": "Winter's strict, demanding mother.",
+    "main_detail": "Tundra is Winter's mother. She is a strict and proud IceWing who wants her children to be the very best.",
+    "books": ["Book 7"],
+    "fun_facts": [
+      "She is Winter's mother and Narwhal's mate.",
+      "IceWing parents push their children to be First Circle.",
+      "Tundra means frozen plains — fitting for an IceWing."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Tundra",
+    "image": ""
+  },
+  {
+    "name": "Narwhal",
+    "tribe": "IceWing",
+    "main_color": "#D6E4F0",
+    "secondary_color": "#F0F8FF",
+    "accent_color": "#5A7FA3",
+    "eye_color": "#1E3A6B",
+    "special_features": "Winter's father; military IceWing",
+    "description": "Winter's stern military father.",
+    "main_detail": "Narwhal is Winter's father. He is a high-ranking IceWing in the military and very strict about IceWing rules.",
+    "books": ["Book 7"],
+    "fun_facts": [
+      "He is Winter's father and Tundra's mate.",
+      "Narwhals are real whales with long horns — fitting for an IceWing.",
+      "He was very disappointed when Winter brought a scavenger home."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Narwhal",
+    "image": ""
+  },
+  {
+    "name": "Mango",
+    "tribe": "RainWing",
+    "main_color": "#FFB347",
+    "secondary_color": "#FFD78F",
+    "accent_color": "#E8703A",
+    "eye_color": "#FFD700",
+    "special_features": "Color-changing scales; named after a tropical fruit",
+    "description": "A bright orange-yellow RainWing.",
+    "main_detail": "Mango is a RainWing whose scales often show bright orange and yellow — like her namesake fruit.",
+    "books": ["Book 3", "Book 6"],
+    "fun_facts": [
+      "RainWings' scales change color with their moods.",
+      "Mangoes are sweet tropical fruits that grow in jungles.",
+      "RainWings can spit venom that dissolves things."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Mango",
+    "image": ""
+  },
+  {
+    "name": "Magnificent",
+    "tribe": "RainWing",
+    "main_color": "#9B59B6",
+    "secondary_color": "#F4A261",
+    "accent_color": "#E91E63",
+    "eye_color": "#FFD700",
+    "special_features": "Former RainWing queen; very colorful",
+    "description": "A former RainWing queen with dazzling colors.",
+    "main_detail": "Magnificent was one of the many RainWing queens who took turns being queen — before Glory united the tribe.",
+    "books": ["Book 3"],
+    "fun_facts": [
+      "RainWings used to switch queens every day before Glory.",
+      "Now there is just one queen — Glory.",
+      "Her name suits a colorful, beautiful RainWing!"
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Magnificent",
+    "image": ""
   }
 ]
