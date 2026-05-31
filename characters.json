@@ -1,0 +1,991 @@
+[
+  {
+    "name": "Clay",
+    "tribe": "MudWing",
+    "main_color": "#8B3A1E",
+    "secondary_color": "#D9A45F",
+    "accent_color": "#E95522",
+    "eye_color": "#87CEEB",
+    "special_features": "Fireproof scales; very strong",
+    "description": "Big, kind, and brave. The MudWing of the dragonets of destiny.",
+    "main_detail": "Clay is one of the five dragonets of destiny, raised in secret by the Talons of Peace underground. He is the bigwings (oldest, strongest, and protector) of his MudWing siblings. Even after a hard upbringing, he chooses kindness above all else.",
+    "books": ["Book 1 (POV)", "Book 2", "Book 3", "Book 4", "Book 5", "Book 6+"],
+    "fun_facts": [
+      "MudWings hatched from blood-red eggs are born fireproof — Clay is one of them!",
+      "His MudWing siblings (his 'troop') are Reed, Marsh, Sora, Umber, and Pheasant.",
+      "He loves food more than almost anything and dreams of being a chef."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Clay",
+    "image": ""
+  },
+  {
+    "name": "Tsunami",
+    "tribe": "SeaWing",
+    "main_color": "#0077B6",
+    "secondary_color": "#6FD3E6",
+    "accent_color": "#BDEFFF",
+    "eye_color": "#00CED1",
+    "special_features": "Glowing stripes; webbed claws; can breathe underwater",
+    "description": "Bold and bossy. The SeaWing princess and one of the dragonets of destiny.",
+    "main_detail": "Tsunami is a SeaWing princess — daughter of Queen Coral — and the dragonet of destiny who never backs down from a fight. She is fiercely loyal to her friends and her family.",
+    "books": ["Book 1", "Book 2 (POV)", "Book 3", "Book 4", "Book 5", "Book 6+"],
+    "fun_facts": [
+      "SeaWings talk underwater by flashing their glowing stripes — a language called Aquatic.",
+      "Her egg was the only royal SeaWing egg to survive a deadly SeaWing assassin.",
+      "She helps run Jade Mountain Academy after the war."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Tsunami",
+    "image": ""
+  },
+  {
+    "name": "Glory",
+    "tribe": "RainWing",
+    "main_color": "#2E8B57",
+    "secondary_color": "#F5F5DC",
+    "accent_color": "#1E90FF",
+    "eye_color": "#1E90FF",
+    "special_features": "Color-changing scales; venom spray; prehensile tail",
+    "description": "Clever and sharp-tongued. The RainWing of the dragonets.",
+    "main_detail": "Glory is a RainWing dragonet who was secretly swapped in for the SkyWing egg of the prophecy. She is clever, sarcastic, and braver than anyone expected. She eventually becomes Queen of both the RainWings and the NightWings.",
+    "books": ["Book 1", "Book 2", "Book 3 (POV)", "Book 4", "Book 5", "Book 6+"],
+    "fun_facts": [
+      "Her scales turn hot pink when she's angry and gray when she's sad.",
+      "Her RainWing venom can melt almost anything.",
+      "She has a pet sloth named Silver."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Glory",
+    "image": ""
+  },
+  {
+    "name": "Starflight",
+    "tribe": "NightWing",
+    "main_color": "#0B0B16",
+    "secondary_color": "#2F3742",
+    "accent_color": "#C0C0C0",
+    "eye_color": "#C8C8D0",
+    "special_features": "Silver star-like scales under wings; teardrop scale by eyes",
+    "description": "Smart and bookish. The NightWing of the dragonets.",
+    "main_detail": "Starflight is the scholar of the dragonets — gentle, curious, and most happy in a library. He is the son of Mastermind. He becomes the librarian of Jade Mountain Academy.",
+    "books": ["Book 1", "Book 2", "Book 3", "Book 4 (POV)", "Book 5", "Book 6+"],
+    "fun_facts": [
+      "NightWings used to be able to read minds and see the future — but most lost those powers.",
+      "He was blinded in a volcanic eruption but kept reading using touch.",
+      "He becomes Fatespeaker's mate."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Starflight",
+    "image": ""
+  },
+  {
+    "name": "Sunny",
+    "tribe": "SandWing",
+    "main_color": "#D4A017",
+    "secondary_color": "#FFF5C8",
+    "accent_color": "#8B5A1E",
+    "eye_color": "#32CD32",
+    "special_features": "SandWing/NightWing hybrid; small; bright green eyes; no black scales",
+    "description": "Cheerful and sweet, the smallest of the dragonets.",
+    "main_detail": "Sunny is a SandWing/NightWing hybrid and the smallest of the dragonets of destiny. She is bright, optimistic, and braver than dragons give her credit for. Her parents are Thorn and Stonemover.",
+    "books": ["Book 1", "Book 2", "Book 3", "Book 4", "Book 5 (POV)", "Book 6+"],
+    "fun_facts": [
+      "She was hidden inside a SandWing egg as a hatching trick — she's the only golden NightWing-hybrid in the world.",
+      "Her green eyes are a NightWing trait that was hidden for centuries.",
+      "She helped reveal that the NightWing 'island home' was a lie."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Sunny",
+    "image": ""
+  },
+  {
+    "name": "Moonwatcher",
+    "tribe": "NightWing",
+    "main_color": "#10251C",
+    "secondary_color": "#8FA29A",
+    "accent_color": "#E6E6E6",
+    "eye_color": "#9ACD32",
+    "special_features": "Can read minds and see the future; green eyes",
+    "description": "Quiet and thoughtful.",
+    "main_detail": "Moonwatcher is a NightWing who was raised secretly in the rainforest by her mother Secretkeeper. She was hatched under two full moons, giving her the ancient NightWing gifts of mind reading and prophecy. She is a student at Jade Mountain Academy.",
+    "books": ["Book 6 (POV)", "Book 7", "Book 8", "Book 9", "Book 10", "Book 14"],
+    "fun_facts": [
+      "She can hear other dragons' thoughts unless she practices blocking them out.",
+      "She raised a pet scavenger named Bigwings as a dragonet.",
+      "She and Qibli have a strong connection."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Moonwatcher",
+    "image": ""
+  },
+  {
+    "name": "Kinkajou",
+    "tribe": "RainWing",
+    "main_color": "#E8C75A",
+    "secondary_color": "#F5E5A8",
+    "accent_color": "#D64CA6",
+    "eye_color": "#90EE90",
+    "special_features": "Color-changing scales; very bubbly and bright",
+    "description": "Friendly and full of energy.",
+    "main_detail": "Kinkajou is a bright, friendly RainWing student at Jade Mountain Academy. She always sees the best in everyone, and her scales flash with happiness. She becomes a true hero when her friends need her most.",
+    "books": ["Book 4", "Book 6", "Book 7", "Book 8", "Book 9", "Book 10", "Book 14"],
+    "fun_facts": [
+      "Her scales flash bright pink and yellow when she's excited.",
+      "She was once kidnapped by NightWings as a dragonet.",
+      "She is Moonwatcher's closest friend at school."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Kinkajou",
+    "image": ""
+  },
+  {
+    "name": "Winter",
+    "tribe": "IceWing",
+    "main_color": "#CFE8FF",
+    "secondary_color": "#F8FBFF",
+    "accent_color": "#2F5D8C",
+    "eye_color": "#0B2E5C",
+    "special_features": "Frost breath; tail spikes; serrated claws",
+    "description": "Proud IceWing prince. He acts grumpy but has a kind heart.",
+    "main_detail": "Winter is an IceWing prince and Jade Mountain Academy student. He acts cold and proud like a 'good' IceWing should, but his heart is much warmer. His brother Hailstorm was lost in the war, and his sister Icicle is dangerous.",
+    "books": ["Book 6", "Book 7 (POV)", "Book 8", "Book 9", "Book 10", "Book 14"],
+    "fun_facts": [
+      "IceWings are ranked from First Circle (best) to Seventh Circle (lowest).",
+      "He kept a pet scavenger named Bandit, against IceWing rules.",
+      "His tail spike can shoot like a sharp icicle."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Winter",
+    "image": ""
+  },
+  {
+    "name": "Qibli",
+    "tribe": "SandWing",
+    "main_color": "#D6C45A",
+    "secondary_color": "#F5EEC2",
+    "accent_color": "#A88A22",
+    "eye_color": "#2F2B12",
+    "special_features": "Venomous tail barb; fire breath",
+    "description": "Clever and quick-thinking. A SandWing who grew up in the Scorpion Den.",
+    "main_detail": "Qibli is a clever, witty SandWing student at Jade Mountain Academy. He grew up in the Scorpion Den with a mean family, and was rescued by Queen Thorn's Outclaws. His sharp thinking often saves his friends.",
+    "books": ["Book 6", "Book 7", "Book 8 (briefly)", "Book 9", "Book 10 (POV)", "Book 14"],
+    "fun_facts": [
+      "He has a scar on his face from his cruel brother Rattlesnake.",
+      "He always wears his mother's earring as a reminder.",
+      "He has a crush on Moonwatcher."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Qibli",
+    "image": ""
+  },
+  {
+    "name": "Turtle",
+    "tribe": "SeaWing",
+    "main_color": "#2E8B57",
+    "secondary_color": "#98D8A8",
+    "accent_color": "#C7F2C2",
+    "eye_color": "#228B22",
+    "special_features": "Glowing stripes; secret animus magic",
+    "description": "Shy and gentle SeaWing prince with many, many siblings.",
+    "main_detail": "Turtle is a SeaWing prince at Jade Mountain Academy. He has so many siblings he tries to stay invisible. He has a huge secret: he is an animus dragon with powerful magic.",
+    "books": ["Book 6", "Book 7", "Book 8", "Book 9 (POV)", "Book 10", "Book 14"],
+    "fun_facts": [
+      "He is one of Tsunami's many SeaWing brothers.",
+      "He hid his animus powers for years to stay safe.",
+      "He carries a magical pouch full of helpful spells."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Turtle",
+    "image": ""
+  },
+  {
+    "name": "Peril",
+    "tribe": "SkyWing",
+    "main_color": "#F05A24",
+    "secondary_color": "#FFD34D",
+    "accent_color": "#B22222",
+    "eye_color": "#00AEEF",
+    "special_features": "Firescales — burns anything she touches",
+    "description": "A SkyWing whose scales are too hot to touch. Fierce but loyal to Clay.",
+    "main_detail": "Peril is a SkyWing born with firescales — her body is so hot she sets things on fire just by touching them. Queen Scarlet kept her as a weapon for years. Clay is the only dragon she can touch.",
+    "books": ["Book 1", "Book 5", "Book 7", "Book 8 (POV)", "Book 9"],
+    "fun_facts": [
+      "Firescales only hatch when twin SkyWing eggs share heat — and one of them survives.",
+      "She has a twin brother named Cliff (a normal SkyWing).",
+      "She wears a special talisman that lets her safely touch other dragons."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Peril",
+    "image": ""
+  },
+  {
+    "name": "Umber",
+    "tribe": "MudWing",
+    "main_color": "#7A3B2E",
+    "secondary_color": "#C89B5B",
+    "accent_color": "#E64A2E",
+    "eye_color": "#D8C0A0",
+    "special_features": "Golden brown with darker brown speckles",
+    "description": "A sweet, gentle MudWing dragonet.",
+    "main_detail": "Umber is one of Clay's MudWing siblings — his troop-mate from the swamp. He is gentle, helpful, and becomes friends with Moonwatcher at Jade Mountain Academy.",
+    "books": ["Book 6", "Book 7", "Book 8"],
+    "fun_facts": [
+      "He is one of Clay's five soldier siblings.",
+      "MudWings call their groups 'troops' — they stay together their whole lives.",
+      "MudWings can hold their breath for hours underwater."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Umber",
+    "image": ""
+  },
+  {
+    "name": "Anemone",
+    "tribe": "SeaWing",
+    "main_color": "#9AC9D6",
+    "secondary_color": "#C6F0F5",
+    "accent_color": "#F4A6C8",
+    "eye_color": "#4DA6C8",
+    "special_features": "Glowing stripes; powerful animus magic; blue-gray scales with pink wings",
+    "description": "Tsunami's little sister, a SeaWing princess. She has powerful magic.",
+    "main_detail": "Anemone is Tsunami's little sister and a SeaWing princess. She was born an animus — a dragon who can give magical powers to objects. Animus magic is wonderful but dangerous: it takes pieces of the dragon's soul.",
+    "books": ["Book 2", "Book 5", "Book 9", "Book 10"],
+    "fun_facts": [
+      "She has a blue-gray body with beautiful pink wing membranes.",
+      "Her mother Coral made her wear a magical bracelet that forced her to obey.",
+      "She is one of only a few animus dragons alive today."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Anemone",
+    "image": ""
+  },
+  {
+    "name": "Burn",
+    "tribe": "SandWing",
+    "main_color": "#8B4A2B",
+    "secondary_color": "#D2A35F",
+    "accent_color": "#3A2418",
+    "eye_color": "#8B0000",
+    "special_features": "Very large and strong; venomous tail barb",
+    "description": "One of three SandWing sisters fighting for the throne.",
+    "main_detail": "Burn is the strongest of the three SandWing sisters at war for the throne. She loves fighting, oddities, and collecting strange things — including dragons.",
+    "books": ["Book 1", "Book 2", "Book 3", "Book 5"],
+    "fun_facts": [
+      "She collects 'oddities' — strange and unusual creatures, alive or dead.",
+      "SandWing royal succession is decided when three sisters fight until one is queen.",
+      "She allied with Queen Scarlet of the SkyWings during the war."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Burn",
+    "image": ""
+  },
+  {
+    "name": "Blister",
+    "tribe": "SandWing",
+    "main_color": "#C6A35A",
+    "secondary_color": "#F1D58A",
+    "accent_color": "#6B4F1D",
+    "eye_color": "#1E90FF",
+    "special_features": "Sleek, snake-like; cunning; venomous tail barb",
+    "description": "The clever and dangerous SandWing sister.",
+    "main_detail": "Blister is the slim, cunning SandWing sister. She thinks before she acts. She allied with the SeaWings in her bid for the throne.",
+    "books": ["Book 1", "Book 2", "Book 3", "Book 5"],
+    "fun_facts": [
+      "She manipulated Tsunami's father Gill, leading to his madness.",
+      "Her face is unmarked — she fights with her brain.",
+      "She is the most patient of the three sisters."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Blister",
+    "image": ""
+  },
+  {
+    "name": "Blaze",
+    "tribe": "SandWing",
+    "main_color": "#F0C96A",
+    "secondary_color": "#FFF0B8",
+    "accent_color": "#D99B2B",
+    "eye_color": "#87CEFA",
+    "special_features": "Pale yellow with white-tipped scales; loves jewelry",
+    "description": "The youngest SandWing sister. Pretty and a little spoiled.",
+    "main_detail": "Blaze is the youngest and prettiest of the three SandWing sisters at war for the throne. She allied with the IceWings, who hid her in their kingdom during the fighting.",
+    "books": ["Book 1", "Book 2", "Book 3", "Book 5"],
+    "fun_facts": [
+      "She has a personal IceWing bodyguard who follows her everywhere.",
+      "She is afraid of actual fighting.",
+      "Her favorite thing in the world is jewelry."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Blaze",
+    "image": ""
+  },
+  {
+    "name": "Thorn",
+    "tribe": "SandWing",
+    "main_color": "#B88745",
+    "secondary_color": "#E0BE76",
+    "accent_color": "#6B3E1F",
+    "eye_color": "#2E8B57",
+    "special_features": "Leader of the Outclaws; venomous tail barb",
+    "description": "Tough and fair leader of a rebel band in the desert.",
+    "main_detail": "Thorn is the leader of the Outclaws, a band of SandWing rebels living in the Scorpion Den. She turns out to be Sunny's long-lost mother, and eventually becomes the rightful Queen of the SandWings.",
+    "books": ["Book 5", "Book 6", "Book 7", "Book 9", "Book 10"],
+    "fun_facts": [
+      "She kept Sunny's father's necklace for years.",
+      "She rescued Qibli from his cruel family.",
+      "She is the first SandWing queen who wasn't a princess."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Thorn",
+    "image": ""
+  },
+  {
+    "name": "Smolder",
+    "tribe": "SandWing",
+    "main_color": "#C98A3A",
+    "secondary_color": "#F0D18A",
+    "accent_color": "#7A4A1E",
+    "eye_color": "#8B5A2B",
+    "special_features": "Calm and artistic SandWing prince",
+    "description": "Brother of Burn, Blister, and Blaze. He paints and keeps a pet scavenger.",
+    "main_detail": "Smolder is the only SandWing prince among the warring sisters who chose to stay out of the fighting. He is calm, thoughtful, and loves art.",
+    "books": ["Book 1", "Book 5", "Dragonslayer"],
+    "fun_facts": [
+      "He paints beautifully even though dragons usually don't do art.",
+      "He keeps a pet scavenger (human) named Flower.",
+      "Most of his siblings died in the war — he is one of the few who survived."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Smolder",
+    "image": ""
+  },
+  {
+    "name": "Scarlet",
+    "tribe": "SkyWing",
+    "main_color": "#B22222",
+    "secondary_color": "#F0A040",
+    "accent_color": "#7A0C0C",
+    "eye_color": "#FFD700",
+    "special_features": "Queen of the SkyWings; wears many jewels",
+    "description": "A fierce SkyWing queen who loved gladiator arena fights.",
+    "main_detail": "Scarlet was the cruel Queen of the SkyWings during the war. She ran a gladiator arena where dragons fought to the death for her entertainment. She allied with Burn against her own kingdom's safety.",
+    "books": ["Book 1", "Book 5", "Book 7", "Book 8"],
+    "fun_facts": [
+      "Her face was badly scarred by Glory's venom in Book 1.",
+      "She kept Peril as a pet weapon in her arena.",
+      "She locked up Tsunami's father Gill until he went mad."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Scarlet",
+    "image": ""
+  },
+  {
+    "name": "Ruby",
+    "tribe": "SkyWing",
+    "main_color": "#C0392B",
+    "secondary_color": "#F2A65A",
+    "accent_color": "#8B1A1A",
+    "eye_color": "#FFD700",
+    "special_features": "Queen of the SkyWings after Scarlet; kinder ruler",
+    "description": "Scarlet's daughter, who became queen. Much kinder than her mother.",
+    "main_detail": "Ruby is Scarlet's daughter and the new, much kinder Queen of the SkyWings. She lived in disguise as a normal SkyWing named Tourmaline for years to escape her mother.",
+    "books": ["Book 5", "Book 7", "Book 8"],
+    "fun_facts": [
+      "Her egg was hidden by her caretaker to keep her safe.",
+      "She lived in disguise as a SkyWing named Tourmaline.",
+      "She raised Peril's twin brother Cliff in secret."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Ruby",
+    "image": ""
+  },
+  {
+    "name": "Coral",
+    "tribe": "SeaWing",
+    "main_color": "#0B7FA5",
+    "secondary_color": "#75D8E5",
+    "accent_color": "#C7F6FF",
+    "eye_color": "#00BFFF",
+    "special_features": "Queen of the SeaWings; wears pearl jewelry",
+    "description": "Mother of Tsunami and Anemone, and queen of the SeaWings.",
+    "main_detail": "Coral is the Queen of the SeaWings — mother to Tsunami, Anemone, Auklet, and many more SeaWing dragonets. She is dramatic, emotional, and obsessed with protecting her remaining eggs.",
+    "books": ["Book 2", "Book 9"],
+    "fun_facts": [
+      "She writes long emotional scrolls about her own life.",
+      "SeaWing queens have huge royal hatcheries full of eggs.",
+      "She lost almost all her dragonets to a SeaWing assassin before Tsunami's hatching."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Coral",
+    "image": ""
+  },
+  {
+    "name": "Gill",
+    "tribe": "SeaWing",
+    "main_color": "#2F6F8F",
+    "secondary_color": "#9ADBE8",
+    "accent_color": "#D8F6FF",
+    "eye_color": "#1E90FF",
+    "special_features": "SeaWing king; driven mad in Scarlet's arena",
+    "description": "Tsunami's father. He was a SeaWing king who was kept in the arena too long.",
+    "main_detail": "Gill was the SeaWing king and Tsunami's father. He was captured by SkyWings and kept away from water for years, which made him go mad. Tsunami met him in Queen Scarlet's arena.",
+    "books": ["Book 1"],
+    "fun_facts": [
+      "SeaWings need to swim every day or they slowly lose their minds.",
+      "He did not recognize Tsunami when they met.",
+      "His name comes from the breathing slits SeaWings have."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Gill",
+    "image": ""
+  },
+  {
+    "name": "Glacier",
+    "tribe": "IceWing",
+    "main_color": "#DDEEFF",
+    "secondary_color": "#FFFFFF",
+    "accent_color": "#8DB7D8",
+    "eye_color": "#1E5AA8",
+    "special_features": "Queen of the IceWings during the war",
+    "description": "Queen of the IceWings during the war. Mother of Hailstorm and Icicle.",
+    "main_detail": "Glacier was the Queen of the IceWings during the War of SandWing Succession. She allied with Blaze. She is the mother of Hailstorm, Icicle, and Winter.",
+    "books": ["Book 1", "Book 2", "Book 4", "Book 7"],
+    "fun_facts": [
+      "IceWings have a Great Ice Cliff that blocks dragons from leaving without permission.",
+      "She is one of the longest-reigning queens in Pyrrhia.",
+      "Her son Hailstorm was thought to be dead during the war."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Glacier",
+    "image": ""
+  },
+  {
+    "name": "Snowfall",
+    "tribe": "IceWing",
+    "main_color": "#EAF6FF",
+    "secondary_color": "#FFFFFF",
+    "accent_color": "#9CC7E6",
+    "eye_color": "#2F5D8C",
+    "special_features": "New IceWing queen; very serious",
+    "description": "The young new queen of the IceWings.",
+    "main_detail": "Snowfall is the young new Queen of the IceWings. She is serious and worried about her tribe's future. She challenges herself to be a strong queen even when scared.",
+    "books": ["Book 10", "Book 14 (POV)"],
+    "fun_facts": [
+      "She fought hard to climb up to First Circle in the IceWing rankings.",
+      "She has a difficult time trusting dragons from other tribes.",
+      "She wears a magical necklace that protects her from harm."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Snowfall",
+    "image": ""
+  },
+  {
+    "name": "Lynx",
+    "tribe": "IceWing",
+    "main_color": "#D6ECF8",
+    "secondary_color": "#F7FCFF",
+    "accent_color": "#87AFC7",
+    "eye_color": "#0B3D91",
+    "special_features": "Friendly IceWing; lower circle ranking",
+    "description": "A friendly IceWing who became Winter's friend.",
+    "main_detail": "Lynx is a kind, curious IceWing who breaks the rules to be friends with Winter. She is from a lower circle and isn't afraid to laugh.",
+    "books": ["Book 7", "Book 10", "Book 14"],
+    "fun_facts": [
+      "IceWings are usually trained to be cold and proud — Lynx is different.",
+      "She helps Winter understand the rest of the world.",
+      "She survives the IceWing 'Diamond Trial' tradition."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Lynx",
+    "image": ""
+  },
+  {
+    "name": "Hailstorm",
+    "tribe": "IceWing",
+    "main_color": "#C7E6F5",
+    "secondary_color": "#F4FBFF",
+    "accent_color": "#6F9FC2",
+    "eye_color": "#1E5AA8",
+    "special_features": "Winter's older brother; honorable warrior",
+    "description": "Winter's big brother. Lost in the war and missed by his family.",
+    "main_detail": "Hailstorm is Winter's older brother and a top-ranked IceWing prince. He was captured during the war and magically disguised as a SkyWing named Pyrite — no one knew he was alive.",
+    "books": ["Book 7", "Book 8"],
+    "fun_facts": [
+      "He lived for years disguised as a SkyWing named Pyrite, not knowing his true self.",
+      "Winter risked everything to find and rescue him.",
+      "He was once First Circle, the highest IceWing rank."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Hailstorm",
+    "image": ""
+  },
+  {
+    "name": "Icicle",
+    "tribe": "IceWing",
+    "main_color": "#D9F0FF",
+    "secondary_color": "#FFFFFF",
+    "accent_color": "#7EAED0",
+    "eye_color": "#0B2E5C",
+    "special_features": "Winter's sister; serrated claws",
+    "description": "Winter's older sister. Fierce and willing to do anything for family.",
+    "main_detail": "Icicle is Winter's older sister and a Jade Mountain Academy student. She gets caught up in a dangerous plot, willing to do anything to save her family.",
+    "books": ["Book 6", "Book 7"],
+    "fun_facts": [
+      "IceWings have serrated claws perfect for cutting ice — and other things.",
+      "She tries to assassinate Glory and Starflight in Book 6.",
+      "Her tail spike can shoot like an arrow."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Icicle",
+    "image": ""
+  },
+  {
+    "name": "Mangrove",
+    "tribe": "RainWing",
+    "main_color": "#2E8B57",
+    "secondary_color": "#F0E6A0",
+    "accent_color": "#D94B4B",
+    "eye_color": "#FFD700",
+    "special_features": "Color-changing scales; venom spray; prehensile tail",
+    "description": "A kind RainWing searching for his lost love.",
+    "main_detail": "Mangrove is a gentle RainWing whose love Orchid was kidnapped by NightWings. He spent years searching for her in the rainforest.",
+    "books": ["Book 3"],
+    "fun_facts": [
+      "RainWings can hang upside down from their tails like monkeys.",
+      "Orchid was rescued and they were finally reunited.",
+      "RainWings used to be peaceful and sleepy until Glory became queen."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Mangrove",
+    "image": ""
+  },
+  {
+    "name": "Jambu",
+    "tribe": "RainWing",
+    "main_color": "#E96BA8",
+    "secondary_color": "#F7E6A3",
+    "accent_color": "#FFD700",
+    "eye_color": "#2E8B57",
+    "special_features": "Bright pink and orange scales; always smiling",
+    "description": "Glory's cheerful brother. He is almost always smiling.",
+    "main_detail": "Jambu is Glory's bright, cheerful older brother. He smiles all the time and helps the dragonets out of pure friendliness. He helped rescue captured RainWings from the NightWing kingdom.",
+    "books": ["Book 3", "Book 5", "Book 6"],
+    "fun_facts": [
+      "His name comes from a tropical fruit.",
+      "RainWings can spit venom that dissolves almost anything.",
+      "He is one of the dragons rescued from NightWing captivity."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Jambu",
+    "image": ""
+  },
+  {
+    "name": "Fatespeaker",
+    "tribe": "NightWing",
+    "main_color": "#1E1A2E",
+    "secondary_color": "#7B6D8D",
+    "accent_color": "#A889C9",
+    "eye_color": "#C8A2C8",
+    "special_features": "Silver star-like scales under wings",
+    "description": "A friendly NightWing who pretends to have visions.",
+    "main_detail": "Fatespeaker was raised as a backup dragonet of destiny on the NightWing volcano island. She believes she has prophetic visions. She becomes Starflight's loyal best friend, and later his mate.",
+    "books": ["Book 4", "Book 5", "Book 10"],
+    "fun_facts": [
+      "She is part of the 'fake' dragonet group raised as backups.",
+      "She doesn't have real NightWing powers — but she cares deeply about everyone.",
+      "She and Starflight run Jade Mountain Academy's library together."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Fatespeaker",
+    "image": ""
+  },
+  {
+    "name": "Morrowseer",
+    "tribe": "NightWing",
+    "main_color": "#0A0A0F",
+    "secondary_color": "#2E2E38",
+    "accent_color": "#4B3A66",
+    "eye_color": "#FFD700",
+    "special_features": "Unusually large NightWing; stern leader",
+    "description": "A big, serious NightWing in charge of secret plans.",
+    "main_detail": "Morrowseer is a huge, frightening NightWing who works behind the scenes pulling strings on the dragonet prophecy. He pretends to have powers he doesn't really have.",
+    "books": ["Book 4", "Book 5"],
+    "fun_facts": [
+      "He is one of the largest NightWings alive.",
+      "He helped fake the prophecy of the dragonets.",
+      "He pretends to read minds even when he can't."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Morrowseer",
+    "image": ""
+  },
+  {
+    "name": "Mastermind",
+    "tribe": "NightWing",
+    "main_color": "#12121A",
+    "secondary_color": "#3B4048",
+    "accent_color": "#5B5270",
+    "eye_color": "#D8D8D8",
+    "special_features": "NightWing scientist; Starflight's father",
+    "description": "A scholarly NightWing who experiments and writes scrolls.",
+    "main_detail": "Mastermind is a NightWing scientist who does cruel experiments. He helped plan the backup dragonets. He is Starflight's father — though Starflight is ashamed of his cruelty.",
+    "books": ["Book 4", "Book 10"],
+    "fun_facts": [
+      "He runs the backup dragonets project on the NightWing island.",
+      "He experimented on RainWings to study their venom.",
+      "Starflight rejects him as a father."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Mastermind",
+    "image": ""
+  },
+  {
+    "name": "Darkstalker",
+    "tribe": "NightWing",
+    "main_color": "#05050A",
+    "secondary_color": "#333A45",
+    "accent_color": "#C0C0C0",
+    "eye_color": "#E6E6E6",
+    "special_features": "Many silver star-scales all over body; animus magic; mind reading; prophecy",
+    "description": "A legendary ancient NightWing with all three magical gifts.",
+    "main_detail": "Darkstalker is a legendary NightWing from two thousand years ago. He had all three NightWing gifts plus animus magic, making him the most powerful dragon ever. Clearsight had to trap him in stone to stop him.",
+    "books": ["Legends: Darkstalker", "Book 9", "Book 10"],
+    "fun_facts": [
+      "He has silver scales all over his body like a night sky full of stars.",
+      "Clearsight was his girlfriend long ago.",
+      "He was locked in stone for two thousand years before being freed."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Darkstalker",
+    "image": ""
+  },
+  {
+    "name": "Clearsight",
+    "tribe": "NightWing",
+    "main_color": "#121826",
+    "secondary_color": "#4D5F6A",
+    "accent_color": "#9EC8D8",
+    "eye_color": "#8EE6FF",
+    "special_features": "Strongest prophecy gift ever known",
+    "description": "An ancient NightWing famous for her gift of seeing the future.",
+    "main_detail": "Clearsight was an ancient NightWing with the strongest gift of seeing the future ever known — she could see thousands of timelines at once. She loved Darkstalker but had to stop his evil plans.",
+    "books": ["Legends: Darkstalker"],
+    "fun_facts": [
+      "She wrote thousands of scrolls about possible futures.",
+      "She founded a hidden city called Beacon for the NightWings.",
+      "Her statue still stands in the town of Possibility."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Clearsight",
+    "image": ""
+  },
+  {
+    "name": "Whiteout",
+    "tribe": "NightWing",
+    "main_color": "#E8E8E8",
+    "secondary_color": "#FDFDFD",
+    "accent_color": "#111111",
+    "eye_color": "#D8C8FF",
+    "special_features": "White scales with black flecks; sees patterns in colors",
+    "description": "A NightWing who sees the world in beautiful, poetic ways.",
+    "main_detail": "Whiteout is Darkstalker's gentle sister from ancient times. She has unusual white scales (because she's part IceWing) and sees the world in colorful patterns. She speaks in mysterious poetry.",
+    "books": ["Legends: Darkstalker"],
+    "fun_facts": [
+      "Her white scales come from her IceWing heritage — she is part-IceWing.",
+      "She is the great-great-grandmother of Moonwatcher's mother.",
+      "She names her son Listener, and her descendants live in Sanctuary."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Whiteout",
+    "image": ""
+  },
+  {
+    "name": "Stonemover",
+    "tribe": "NightWing",
+    "main_color": "#6F6F6F",
+    "secondary_color": "#B8B0A0",
+    "accent_color": "#3A2A1E",
+    "eye_color": "#8B6F47",
+    "special_features": "Slowly turning to stone from using animus magic",
+    "description": "Sunny's father. He hides in a cave because of his animus magic.",
+    "main_detail": "Stonemover is a NightWing animus who used too much magic and is slowly turning to stone. He hides in a cave in Jade Mountain. He is Sunny's father, separated from her mother Thorn.",
+    "books": ["Book 5", "Book 9"],
+    "fun_facts": [
+      "Every animus spell takes a piece of the dragon's soul.",
+      "He used so much magic that half his body is stone.",
+      "Sunny didn't know about him for most of her life."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Stonemover",
+    "image": ""
+  },
+  {
+    "name": "Webs",
+    "tribe": "SeaWing",
+    "main_color": "#2A7FA5",
+    "secondary_color": "#95DDE8",
+    "accent_color": "#CFFAFF",
+    "eye_color": "#00AEEF",
+    "special_features": "Glowing stripes; gentle teacher",
+    "description": "One of the dragons who raised the dragonets in secret.",
+    "main_detail": "Webs is a SeaWing who was one of the three guardians who raised the dragonets of destiny in secret. He felt very guilty about stealing Tsunami's egg from the SeaWing nursery.",
+    "books": ["Book 1", "Book 4", "Book 5", "Book 7"],
+    "fun_facts": [
+      "He stole Tsunami's egg from Queen Coral's hatchery.",
+      "He is Riptide's father.",
+      "He works as a teacher at Jade Mountain Academy."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Webs",
+    "image": ""
+  },
+  {
+    "name": "Riptide",
+    "tribe": "SeaWing",
+    "main_color": "#1F8AA8",
+    "secondary_color": "#8FDDE0",
+    "accent_color": "#BFF6FF",
+    "eye_color": "#00BFFF",
+    "special_features": "Strong SeaWing soldier",
+    "description": "A SeaWing who falls in love with Tsunami.",
+    "main_detail": "Riptide is a strong SeaWing soldier who falls in love with Tsunami. He is the son of Webs, one of the dragonet guardians. He works with the Talons of Peace rebellion.",
+    "books": ["Book 2", "Book 7"],
+    "fun_facts": [
+      "His father Webs was banished for stealing Tsunami's egg.",
+      "He has strong arms from swimming in the deep ocean.",
+      "Tsunami trusts him completely."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Riptide",
+    "image": ""
+  },
+  {
+    "name": "Auklet",
+    "tribe": "SeaWing",
+    "main_color": "#2E8B57",
+    "secondary_color": "#7FCBA1",
+    "accent_color": "#ADFF2F",
+    "eye_color": "#228B22",
+    "special_features": "Tiny dragonet; Tsunami's baby sister; glowing stripes",
+    "description": "Tsunami's adorable baby sister.",
+    "main_detail": "Auklet is Tsunami's adorable baby sister — a tiny SeaWing princess full of energy. She loves swimming with her big sister.",
+    "books": ["Book 2"],
+    "fun_facts": [
+      "SeaWing dragonets all hatch together in huge royal hatcheries.",
+      "She is one of many young SeaWings of Queen Coral.",
+      "SeaWing babies can swim before they can fly."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Auklet",
+    "image": ""
+  },
+  {
+    "name": "Blue",
+    "tribe": "SilkWing",
+    "main_color": "#48B9D8",
+    "secondary_color": "#B9F2FF",
+    "accent_color": "#6A5ACD",
+    "eye_color": "#2E8B57",
+    "special_features": "Four wings; silk-spinning wrists; rare flamesilk powers",
+    "description": "A sweet, gentle SilkWing who becomes a hero in Pantala.",
+    "main_detail": "Blue is a sweet, gentle SilkWing on the continent of Pantala. He discovers a huge secret about himself: he is a rare flamesilk, able to spin silk that burns hot like fire.",
+    "books": ["Book 11 (POV)", "Book 12", "Book 13", "Book 14", "Book 15"],
+    "fun_facts": [
+      "SilkWings have four wings — twice as many as Pyrrhia dragons.",
+      "He grew up thinking SilkWings were lucky to serve HiveWings.",
+      "His sister Luna is also a flamesilk."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Blue",
+    "image": ""
+  },
+  {
+    "name": "Luna",
+    "tribe": "SilkWing",
+    "main_color": "#B8E986",
+    "secondary_color": "#F3FAD2",
+    "accent_color": "#8FD8D8",
+    "eye_color": "#2E8B57",
+    "special_features": "Four wings; flamesilks (silk that burns hot)",
+    "description": "Blue's brave sister. Her silk burns hot like fire.",
+    "main_detail": "Luna is Blue's brave sister, a SilkWing who turns out to be a rare flamesilk. She becomes a leader of the SilkWing rebellion against the HiveWings.",
+    "books": ["Book 11", "Book 12 (POV)", "Book 13", "Book 14", "Book 15"],
+    "fun_facts": [
+      "Flamesilks spin silk that burns — very rare and very useful.",
+      "Her silk is bright golden-yellow.",
+      "She and Swordtail love each other very much."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Luna",
+    "image": ""
+  },
+  {
+    "name": "Cricket",
+    "tribe": "HiveWing",
+    "main_color": "#E0A21B",
+    "secondary_color": "#F5D45A",
+    "accent_color": "#111111",
+    "eye_color": "#5A2A0A",
+    "special_features": "HiveWing stingers; very curious and bookish",
+    "description": "A clever HiveWing who loves to read.",
+    "main_detail": "Cricket is a curious, clever HiveWing who loves books. She is the rare HiveWing who cannot be mind-controlled by Queen Wasp. She becomes Blue's friend and protector.",
+    "books": ["Book 11", "Book 12", "Book 13", "Book 14", "Book 15"],
+    "fun_facts": [
+      "She wears glasses — almost unheard of for a dragon!",
+      "Queen Wasp's mind control doesn't work on her, and she doesn't know why.",
+      "She becomes Bumblebee's adoptive mother."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Cricket",
+    "image": ""
+  },
+  {
+    "name": "Sundew",
+    "tribe": "LeafWing",
+    "main_color": "#2F7D32",
+    "secondary_color": "#8DBE55",
+    "accent_color": "#1B4D1B",
+    "eye_color": "#8B4513",
+    "special_features": "Leafspeak — can talk to and control plants",
+    "description": "A fierce LeafWing who can speak to plants.",
+    "main_detail": "Sundew is a fierce LeafWing trained from hatching to be a warrior against the HiveWings. She has the rare gift of leafspeak — she can command plants to grow, move, and fight.",
+    "books": ["Book 11", "Book 12", "Book 13 (POV)", "Book 14", "Book 15"],
+    "fun_facts": [
+      "LeafWings were thought to be extinct by Pyrrhia dragons.",
+      "Leafspeak makes plants grow, move, and even attack.",
+      "She and Willow love each other deeply."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Sundew",
+    "image": ""
+  },
+  {
+    "name": "Swordtail",
+    "tribe": "SilkWing",
+    "main_color": "#E87522",
+    "secondary_color": "#F4C06A",
+    "accent_color": "#5B1E8A",
+    "eye_color": "#2E2E2E",
+    "special_features": "Four wings; silk wrists; very loyal",
+    "description": "Luna's brave best friend.",
+    "main_detail": "Swordtail is Luna's loyal partner and Blue's best friend. He is brave and would do anything for the dragons he loves. He was imprisoned by HiveWings for trying to escape.",
+    "books": ["Book 11", "Book 12", "Book 13", "Book 14", "Book 15"],
+    "fun_facts": [
+      "SilkWings get their silk wrists when they are six years old (their Metamorphosis).",
+      "His silk is light blue.",
+      "He is in love with Luna."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Swordtail",
+    "image": ""
+  },
+  {
+    "name": "Io",
+    "tribe": "SilkWing",
+    "main_color": "#5D2E8C",
+    "secondary_color": "#E8DCC8",
+    "accent_color": "#8FD9B7",
+    "eye_color": "#7A1E5C",
+    "special_features": "Four wings; deep purple scales with mint-green butterfly wing patterns and yellow eyespots; secret rebel",
+    "description": "A clever, secretive SilkWing rebel.",
+    "main_detail": "Io is a clever, brave SilkWing who works for the Chrysalis — the secret SilkWing rebellion against the HiveWings. She is bold and direct.",
+    "books": ["Book 11", "Book 12"],
+    "fun_facts": [
+      "The Chrysalis is the SilkWing freedom organization.",
+      "Her name comes from a kind of butterfly.",
+      "She doesn't trust HiveWings — not even Cricket at first."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Io",
+    "image": ""
+  },
+  {
+    "name": "Bumblebee",
+    "tribe": "HiveWing",
+    "main_color": "#FFD43B",
+    "secondary_color": "#FFF1A8",
+    "accent_color": "#1A1A1A",
+    "eye_color": "#6B4A00",
+    "special_features": "Tiny HiveWing dragonet",
+    "description": "A very small, very cute HiveWing dragonet.",
+    "main_detail": "Bumblebee is a baby HiveWing dragonet that Cricket secretly adopts and protects. She is too young to be mind-controlled by Queen Wasp.",
+    "books": ["Book 12", "Book 13", "Book 14", "Book 15"],
+    "fun_facts": [
+      "She hatched too early to be controlled by the queen.",
+      "Cricket carries her around in a pouch.",
+      "She loves saying 'no!' to everything (she's a toddler)."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Bumblebee",
+    "image": ""
+  },
+  {
+    "name": "Wasp",
+    "tribe": "HiveWing",
+    "main_color": "#B8860B",
+    "secondary_color": "#E6C45A",
+    "accent_color": "#101010",
+    "eye_color": "#8B0000",
+    "special_features": "Queen of the HiveWings; mind-control over her entire tribe",
+    "description": "The fearsome queen of the HiveWings.",
+    "main_detail": "Queen Wasp is the terrifying ruler of the HiveWings on the continent of Pantala. She has a special power called the 'breath of evil' — she can control the minds of all HiveWings at once.",
+    "books": ["Book 11", "Book 12", "Book 13", "Book 14", "Book 15"],
+    "fun_facts": [
+      "Her mind control covers every HiveWing except Cricket and a few others.",
+      "She wants to wipe out the LeafWings forever.",
+      "The 'breath of evil' is connected to an ancient plant called the breath of evil."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Queen_Wasp",
+    "image": "",
+    "image_filename": "Queen_Wasp_canon_2.png"
+  },
+  {
+    "name": "Willow",
+    "tribe": "LeafWing",
+    "main_color": "#4F8F3A",
+    "secondary_color": "#9BC56E",
+    "accent_color": "#2E5B2E",
+    "eye_color": "#6B8E23",
+    "special_features": "Leafspeak; gentler than other LeafWings",
+    "description": "A peaceful LeafWing who loves nature.",
+    "main_detail": "Willow is a peaceful, gentle LeafWing from the Sap Wing group. She believes in being friends with all tribes. Sundew's beloved.",
+    "books": ["Book 13", "Book 14", "Book 15"],
+    "fun_facts": [
+      "There are two kinds of LeafWings: Sap Wings (peaceful) and Poison Jungle Wings (warriors).",
+      "She is mostly vegetarian, eating fruits and plants.",
+      "She and Sundew love each other very much."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Willow",
+    "image": ""
+  },
+  {
+    "name": "Hazel",
+    "tribe": "LeafWing",
+    "main_color": "#2E5B2E",
+    "secondary_color": "#6B8E4E",
+    "accent_color": "#1A3A1A",
+    "eye_color": "#6B8E23",
+    "special_features": "LeafWing leader of the Sap Wings",
+    "description": "A LeafWing leader who cares deeply for her tribe.",
+    "main_detail": "Hazel is a leader of the Sap Wing LeafWings — the peaceful group hidden in the Poison Jungle. She has to make tough decisions to protect her tribe.",
+    "books": ["Book 13", "Book 14", "Book 15"],
+    "fun_facts": [
+      "LeafWings have been hiding in the Poison Jungle for fifty years.",
+      "The jungle is full of plants that are dangerous to any tribe except LeafWings.",
+      "She has forest-green scales."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Hazel",
+    "image": ""
+  },
+  {
+    "name": "Cliff",
+    "tribe": "SkyWing",
+    "main_color": "#D9471E",
+    "secondary_color": "#F0A34A",
+    "accent_color": "#8B1E12",
+    "eye_color": "#FFD700",
+    "special_features": "SkyWing dragonet; very cute and small",
+    "description": "Peril's little brother, a SkyWing dragonet.",
+    "main_detail": "Cliff is Peril's twin brother — a normal SkyWing dragonet who was raised in secret by Queen Ruby. SkyWing twins share their fire energy in the egg, which is why Peril hatched as a firescales.",
+    "books": ["Book 8"],
+    "fun_facts": [
+      "SkyWing twin eggs share heat — one usually hatches as firescales.",
+      "Queen Ruby raised him so he would be safe from Queen Scarlet.",
+      "He is sweet, curious, and loves to fly."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Cliff",
+    "image": ""
+  },
+  {
+    "name": "Tamarin",
+    "tribe": "RainWing",
+    "main_color": "#B8C66A",
+    "secondary_color": "#F5E6A0",
+    "accent_color": "#7AA66A",
+    "eye_color": "#D2C2A8",
+    "special_features": "Color-changing scales; blind but very brave",
+    "description": "A RainWing student who cannot see, but is curious and brave.",
+    "main_detail": "Tamarin is a blind RainWing student at Jade Mountain Academy. Even though she cannot see, her scales still change color with her feelings. She is curious, kind, and brave.",
+    "books": ["Book 6", "Book 13"],
+    "fun_facts": [
+      "Her scales change color even though she cannot see them.",
+      "She helps translate between RainWings and other tribes.",
+      "She becomes important in helping the LeafWings."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Tamarin",
+    "image": ""
+  },
+  {
+    "name": "Pike",
+    "tribe": "SeaWing",
+    "main_color": "#1E77A8",
+    "secondary_color": "#8DD8E8",
+    "accent_color": "#C8F7FF",
+    "eye_color": "#00BFFF",
+    "special_features": "Glowing stripes; protective of his sister",
+    "description": "A SeaWing student at Jade Mountain Academy.",
+    "main_detail": "Pike is a SeaWing student at Jade Mountain Academy. He is very protective of his twin sister Pearl, and gets upset when other dragons get too close to her.",
+    "books": ["Book 6"],
+    "fun_facts": [
+      "He has a twin sister named Pearl.",
+      "SeaWings need to swim regularly to stay healthy.",
+      "He goes home from school when Pearl needs him."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Pike",
+    "image": ""
+  }
+]

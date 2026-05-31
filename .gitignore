@@ -1,0 +1,9 @@
+# Local Claude Code session config — not for publishing
+.claude/
+
+# macOS metadata
+.DS_Store
+
+# Editor backups
+*.swp
+*~
