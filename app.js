@@ -52,6 +52,7 @@ function imageCandidates(character) {
   const overrides = character.image_filename ? [character.image_filename] : [];
   const base = character.name.replace(/ /g, "_");
   const guesses = [
+    `${base}TemplateBas.png`,    // Wiki "Reference" template image (newer pattern)
     `${base}_canon_2.png`,
     `${base}_canon.png`,
     `${base}_canon_3.png`,
