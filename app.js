@@ -72,80 +72,78 @@ function setTribeVars(el, character) {
   el.style.setProperty("--tribe-color", `var(--${character.tribe})`);
 }
 
-// Cute side-profile dragon silhouette, colored from the character's palette.
-// Used as the placeholder when no canon image is available (or skipped).
-// Side profile reads unambiguously as a dragon (snout, wing, spikes, tail).
+// Cute front-facing baby dragon, Toothless-inspired (per reference image).
+// Big rounded ears/horns angled outward, large sparkly eyes, signature
+// vertical dot-row on the forehead, bat-wings peeking out behind, sitting
+// pose with two front feet visible.
 const DRAGON_SVG = `
-<svg class="dragon-svg" viewBox="0 0 240 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-  <!-- Tail (long, curving up and back) -->
-  <path d="M 178 145 Q 215 145 218 110 Q 218 78 200 72"
-        stroke="var(--main-color)" stroke-width="14" stroke-linecap="round" fill="none"/>
-  <!-- Tail spike at end -->
-  <path d="M 195 60 L 215 56 L 205 82 Z" fill="var(--accent-color)"/>
+<svg class="dragon-svg" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <!-- Wings (left + right, behind body) -->
+  <path d="M 60 130 Q 28 122 22 150 Q 22 178 56 178 Q 75 170 78 145 Z" fill="var(--secondary-color)"/>
+  <path d="M 180 130 Q 212 122 218 150 Q 218 178 184 178 Q 165 170 162 145 Z" fill="var(--secondary-color)"/>
+  <!-- Wing fold lines -->
+  <path d="M 50 134 Q 42 158 52 175" stroke="var(--main-color)" stroke-width="1.2" fill="none" opacity="0.3"/>
+  <path d="M 190 134 Q 198 158 188 175" stroke="var(--main-color)" stroke-width="1.2" fill="none" opacity="0.3"/>
 
-  <!-- Wing (large, behind body) -->
-  <path d="M 130 100 Q 165 50 220 60 Q 215 115 175 118 Q 145 118 130 110 Z"
-        fill="var(--secondary-color)"/>
-  <!-- Wing membrane lines -->
-  <path d="M 140 105 Q 175 80 215 78" stroke="var(--main-color)"
-        stroke-width="1.5" fill="none" opacity="0.35"/>
-  <path d="M 145 112 Q 180 95 210 92" stroke="var(--main-color)"
-        stroke-width="1.5" fill="none" opacity="0.35"/>
-
-  <!-- Body (oval) -->
-  <ellipse cx="130" cy="135" rx="58" ry="34" fill="var(--main-color)"/>
+  <!-- Body (chubby sitting) -->
+  <ellipse cx="120" cy="168" rx="55" ry="46" fill="var(--main-color)"/>
   <!-- Belly highlight -->
-  <ellipse cx="135" cy="150" rx="42" ry="18" fill="var(--secondary-color)" opacity="0.65"/>
+  <ellipse cx="120" cy="180" rx="36" ry="28" fill="var(--secondary-color)" opacity="0.55"/>
 
-  <!-- Spikes along back ridge -->
-  <path d="M 95 110 L 100 96 L 105 110 Z" fill="var(--accent-color)"/>
-  <path d="M 110 107 L 115 92 L 120 107 Z" fill="var(--accent-color)"/>
-  <path d="M 125 105 L 130 90 L 135 105 Z" fill="var(--accent-color)"/>
-  <path d="M 140 107 L 145 93 L 150 107 Z" fill="var(--accent-color)"/>
-  <path d="M 155 110 L 160 98 L 165 110 Z" fill="var(--accent-color)"/>
+  <!-- Tail peeking around right side -->
+  <path d="M 172 200 Q 202 212 208 188 L 202 182"
+        stroke="var(--main-color)" stroke-width="11" stroke-linecap="round" fill="none"/>
+  <path d="M 199 178 L 213 174 L 207 192 Z" fill="var(--accent-color)" opacity="0.85"/>
 
-  <!-- Neck connecting head to body -->
-  <ellipse cx="95" cy="118" rx="22" ry="20" fill="var(--main-color)"/>
+  <!-- Ears/horns (rounded, angled outward) -->
+  <ellipse cx="72" cy="58" rx="17" ry="32" fill="var(--main-color)" transform="rotate(-22 72 58)"/>
+  <ellipse cx="168" cy="58" rx="17" ry="32" fill="var(--main-color)" transform="rotate(22 168 58)"/>
+  <!-- Inner ear (lighter) -->
+  <ellipse cx="72" cy="62" rx="8" ry="20" fill="var(--secondary-color)" opacity="0.7" transform="rotate(-22 72 62)"/>
+  <ellipse cx="168" cy="62" rx="8" ry="20" fill="var(--secondary-color)" opacity="0.7" transform="rotate(22 168 62)"/>
 
-  <!-- Head (oval) -->
-  <ellipse cx="78" cy="98" rx="34" ry="26" fill="var(--main-color)"/>
-  <!-- Snout (extending forward) -->
-  <ellipse cx="50" cy="105" rx="22" ry="13" fill="var(--main-color)"/>
-  <!-- Snout underside (jaw line) -->
-  <ellipse cx="50" cy="111" rx="20" ry="5" fill="var(--secondary-color)" opacity="0.55"/>
+  <!-- Head (large round, front-facing) -->
+  <ellipse cx="120" cy="108" rx="56" ry="53" fill="var(--main-color)"/>
 
-  <!-- Nostril -->
-  <ellipse cx="38" cy="103" rx="2" ry="1.5" fill="#1c1c1c" opacity="0.6"/>
+  <!-- Forehead dot-row (Toothless signature) -->
+  <circle cx="120" cy="62" r="3.5" fill="var(--accent-color)" opacity="0.78"/>
+  <circle cx="120" cy="73" r="3" fill="var(--accent-color)" opacity="0.66"/>
+  <circle cx="120" cy="83" r="2.5" fill="var(--accent-color)" opacity="0.55"/>
+  <circle cx="120" cy="91" r="2" fill="var(--accent-color)" opacity="0.45"/>
 
-  <!-- Back horn (longer) -->
-  <path d="M 92 76 Q 102 52 114 58 L 105 82 Z" fill="var(--main-color)"/>
-  <!-- Front horn (smaller) -->
-  <path d="M 76 76 Q 84 58 94 64 L 88 82 Z" fill="var(--main-color)"/>
-  <!-- Horn highlights -->
-  <path d="M 100 65 L 107 72 L 103 80 Z" fill="white" opacity="0.22"/>
-  <path d="M 82 70 L 87 75 L 85 80 Z" fill="white" opacity="0.22"/>
+  <!-- Eye whites (huge) -->
+  <ellipse cx="96" cy="112" rx="17" ry="22" fill="#ffffff"/>
+  <ellipse cx="144" cy="112" rx="17" ry="22" fill="#ffffff"/>
 
-  <!-- Eye -->
-  <ellipse cx="76" cy="96" rx="9" ry="11" fill="#ffffff"/>
-  <ellipse cx="76" cy="98" rx="5" ry="7.5" fill="#1c1c1c"/>
-  <ellipse cx="74" cy="93" rx="2.2" ry="3" fill="white"/>
-  <circle cx="78" cy="103" r="1.3" fill="white" opacity="0.75"/>
+  <!-- Pupils (large) -->
+  <ellipse cx="96" cy="117" rx="11" ry="16" fill="#1c1c1c"/>
+  <ellipse cx="144" cy="117" rx="11" ry="16" fill="#1c1c1c"/>
 
-  <!-- Smile -->
-  <path d="M 36 114 Q 48 118 60 114" stroke="#1c1c1c" stroke-width="2"
+  <!-- Eye sparkles (big top) -->
+  <ellipse cx="91" cy="108" rx="4.5" ry="6" fill="white"/>
+  <ellipse cx="139" cy="108" rx="4.5" ry="6" fill="white"/>
+  <!-- Eye sparkles (small bottom) -->
+  <circle cx="101" cy="125" r="2.2" fill="white" opacity="0.85"/>
+  <circle cx="149" cy="125" r="2.2" fill="white" opacity="0.85"/>
+
+  <!-- Subtle nose hint -->
+  <ellipse cx="120" cy="142" rx="7" ry="3.5" fill="var(--secondary-color)" opacity="0.4"/>
+
+  <!-- Closed smile -->
+  <path d="M 110 148 Q 120 154 130 148" stroke="#1c1c1c" stroke-width="2"
         stroke-linecap="round" fill="none"/>
-  <!-- Tiny tooth -->
-  <path d="M 44 115 L 46 119 L 48 115 Z" fill="white" stroke="#1c1c1c" stroke-width="0.5"/>
 
-  <!-- Front leg -->
-  <ellipse cx="108" cy="168" rx="10" ry="14" fill="var(--main-color)"/>
-  <path d="M 103 180 L 102 187 M 108 182 L 108 188 M 113 180 L 115 187"
-        stroke="#1c1c1c" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+  <!-- Front feet (paws peeking from under body) -->
+  <ellipse cx="95" cy="215" rx="15" ry="11" fill="var(--main-color)"/>
+  <ellipse cx="145" cy="215" rx="15" ry="11" fill="var(--main-color)"/>
 
-  <!-- Back leg -->
-  <ellipse cx="160" cy="168" rx="12" ry="14" fill="var(--main-color)"/>
-  <path d="M 154 181 L 153 188 M 160 182 L 160 189 M 166 181 L 168 188"
-        stroke="#1c1c1c" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+  <!-- Toe claws -->
+  <ellipse cx="87" cy="221" rx="2.4" ry="3" fill="var(--accent-color)" opacity="0.55"/>
+  <ellipse cx="95" cy="224" rx="2.4" ry="3" fill="var(--accent-color)" opacity="0.55"/>
+  <ellipse cx="103" cy="221" rx="2.4" ry="3" fill="var(--accent-color)" opacity="0.55"/>
+  <ellipse cx="137" cy="221" rx="2.4" ry="3" fill="var(--accent-color)" opacity="0.55"/>
+  <ellipse cx="145" cy="224" rx="2.4" ry="3" fill="var(--accent-color)" opacity="0.55"/>
+  <ellipse cx="153" cy="221" rx="2.4" ry="3" fill="var(--accent-color)" opacity="0.55"/>
 </svg>`;
 
 function makePlaceholder(character) {
