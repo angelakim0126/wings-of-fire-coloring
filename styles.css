@@ -70,6 +70,19 @@ header::before, header::after {
 header::before { left: max(2rem, calc(50% - 280px)); }
 header::after { right: max(2rem, calc(50% - 280px)); }
 
+.title-name {
+  margin: 0 0 0.2rem;
+  font-family: var(--serif);
+  font-size: clamp(1.4rem, 3.2vw, 2rem);
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  background: linear-gradient(135deg, var(--magic) 0%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 header h1 {
   margin: 0;
   font-family: var(--serif);
