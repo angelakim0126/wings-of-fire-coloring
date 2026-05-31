@@ -1,16 +1,15 @@
 const TRIBES = [
   "MudWing", "SandWing", "SkyWing", "SeaWing", "IceWing",
   "RainWing", "NightWing", "SilkWing", "HiveWing", "LeafWing",
-  "Scavenger"
+  "Unknown"
 ];
 
-// Swatch labels per tribe — scavengers (humans) use body-part terms
-// that make sense for a person, not a dragon.
+// Swatch labels per tribe — dragons use scale-based labels; if a future
+// non-dragon character is added (scavenger, etc.) the label set can be
+// extended here.
 const SWATCH_LABELS = {
   default: { card: ["body", "tummy", "markings", "eyes"],
-             modal: ["body", "tummy", "markings", "eyes"] },
-  Scavenger: { card: ["skin", "clothes", "hair", "eyes"],
-               modal: ["skin", "clothes", "hair", "eyes"] }
+             modal: ["body", "tummy", "markings", "eyes"] }
 };
 
 function swatchLabels(tribe, where) {
