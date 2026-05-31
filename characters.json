@@ -1843,43 +1843,42 @@
   },
   {
     "name": "Aurora",
-    "tribe": "SeaWing",
-    "main_color": "#1E3A8A",
-    "secondary_color": "#7FC8E8",
-    "accent_color": "#22D3EE",
-    "eye_color": "#1E40AF",
-    "special_features": "SeaWing princess; Tsunami's sister",
-    "description": "A SeaWing princess and one of Tsunami's many sisters.",
-    "main_detail": "Aurora is a SeaWing princess — one of Tsunami's many sisters. Her name comes from the auroras that light up the sky.",
+    "tribe": "Unknown",
+    "main_color": "#E8B7C5",
+    "secondary_color": "#FFF5F7",
+    "accent_color": "#D9471E",
+    "eye_color": "#87CEEB",
+    "special_features": "IceWing/SkyWing hybrid; singer at the Northern Lights concerts; Borealis's sister",
+    "description": "An IceWing-SkyWing hybrid singer. Borealis's sister.",
+    "main_detail": "Aurora is a hybrid dragon — part IceWing, part SkyWing. She is a singer who performs at the Northern Lights concerts with her brother Borealis. She lives in the Court of Refuge.",
     "books": [
-      "Book 2",
-      "Book 9"
+      "The Hybrid Prince"
     ],
     "fun_facts": [
-      "She is one of Queen Coral's many daughters.",
-      "Aurora is the name of the colorful lights in the polar sky.",
-      "SeaWings can glow in the dark to talk underwater."
+      "She and her brother Borealis are named after the aurora borealis — the northern lights!",
+      "She is a singer who performs at the Northern Lights concerts.",
+      "She lives in the Court of Refuge, a safe place for hybrid dragons."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Aurora",
     "image": ""
   },
   {
     "name": "Borealis",
-    "tribe": "NightWing",
-    "main_color": "#1A1A2E",
-    "secondary_color": "#9BB7D4",
-    "accent_color": "#E0E5EC",
-    "eye_color": "#9370DB",
-    "special_features": "NightWing with IceWing heritage; descendant of Whiteout",
-    "description": "A hybrid NightWing from the hidden town of Sanctuary.",
-    "main_detail": "Borealis is descended from Whiteout's line, which means she has some IceWing heritage. She lives in the hidden town of Sanctuary.",
+    "tribe": "Unknown",
+    "main_color": "#C8D4E8",
+    "secondary_color": "#FFFFFF",
+    "accent_color": "#E07B3A",
+    "eye_color": "#5A8BC9",
+    "special_features": "IceWing/SkyWing hybrid; singer at the Northern Lights concerts; Aurora's brother",
+    "description": "An IceWing-SkyWing hybrid singer. Aurora's brother.",
+    "main_detail": "Borealis is a hybrid dragon — part IceWing, part SkyWing. He is a singer who performs at the Northern Lights concerts with his sister Aurora. He lives in the Court of Refuge.",
     "books": [
-      "Legends: Darkstalker"
+      "The Hybrid Prince"
     ],
     "fun_facts": [
-      "Borealis is the name of the northern lights.",
-      "Her family hid in Sanctuary to escape Darkstalker.",
-      "Hybrid dragons have features from both of their tribes."
+      "He and his sister Aurora are named after the aurora borealis — the northern lights!",
+      "He is a singer who performs at the Northern Lights concerts.",
+      "The Court of Refuge is a home for hybrid dragons who don't fit in just one tribe."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Borealis",
     "image": ""
