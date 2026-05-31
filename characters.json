@@ -1925,6 +1925,7 @@
       "RainWings live in the rainforest with Queen Glory."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Platypus",
-    "image": ""
+    "image": "",
+    "skip_image": true
   }
 ]
