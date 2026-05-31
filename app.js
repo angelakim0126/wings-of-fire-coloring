@@ -1,7 +1,22 @@
 const TRIBES = [
   "MudWing", "SandWing", "SkyWing", "SeaWing", "IceWing",
-  "RainWing", "NightWing", "SilkWing", "HiveWing", "LeafWing"
+  "RainWing", "NightWing", "SilkWing", "HiveWing", "LeafWing",
+  "Scavenger"
 ];
+
+// Swatch labels per tribe — scavengers (humans) use body-part terms
+// that make sense for a person, not a dragon.
+const SWATCH_LABELS = {
+  default: { card: ["body", "tummy", "markings", "eyes"],
+             modal: ["body", "tummy", "markings", "eyes"] },
+  Scavenger: { card: ["skin", "clothes", "hair", "eyes"],
+               modal: ["skin", "clothes", "hair", "eyes"] }
+};
+
+function swatchLabels(tribe, where) {
+  const key = SWATCH_LABELS[tribe] ? tribe : "default";
+  return SWATCH_LABELS[key][where];
+}
 
 const DRAGON_GLYPH = "🐉";
 const FANDOM_BASE = "https://wingsoffire.fandom.com/wiki/Special:FilePath/";
@@ -244,10 +259,11 @@ function makeCard(character) {
 
   const colorRow = document.createElement("div");
   colorRow.className = "color-row";
-  colorRow.appendChild(makeSwatch(character.main_color, "body"));
-  colorRow.appendChild(makeSwatch(character.secondary_color, "tummy"));
-  colorRow.appendChild(makeSwatch(character.accent_color, "markings"));
-  colorRow.appendChild(makeSwatch(character.eye_color, "eyes"));
+  const cardLbl = swatchLabels(character.tribe, "card");
+  colorRow.appendChild(makeSwatch(character.main_color, cardLbl[0]));
+  colorRow.appendChild(makeSwatch(character.secondary_color, cardLbl[1]));
+  colorRow.appendChild(makeSwatch(character.accent_color, cardLbl[2]));
+  colorRow.appendChild(makeSwatch(character.eye_color, cardLbl[3]));
 
   body.appendChild(name);
   body.appendChild(badge);
@@ -356,10 +372,11 @@ function openModal(character) {
   colorTitle.textContent = "Colors to use";
   const colorRow = document.createElement("div");
   colorRow.className = "color-row";
-  colorRow.appendChild(makeSwatch(character.main_color, "body"));
-  colorRow.appendChild(makeSwatch(character.secondary_color, "tummy"));
-  colorRow.appendChild(makeSwatch(character.accent_color, "markings"));
-  colorRow.appendChild(makeSwatch(character.eye_color, "eyes"));
+  const modalLbl = swatchLabels(character.tribe, "modal");
+  colorRow.appendChild(makeSwatch(character.main_color, modalLbl[0]));
+  colorRow.appendChild(makeSwatch(character.secondary_color, modalLbl[1]));
+  colorRow.appendChild(makeSwatch(character.accent_color, modalLbl[2]));
+  colorRow.appendChild(makeSwatch(character.eye_color, modalLbl[3]));
   colorSection.appendChild(colorTitle);
   colorSection.appendChild(colorRow);
 

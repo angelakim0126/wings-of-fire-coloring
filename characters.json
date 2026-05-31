@@ -988,5 +988,65 @@
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Pike",
     "image": ""
+  },
+  {
+    "name": "Freedom",
+    "tribe": "Scavenger",
+    "main_color": "#D2A679",
+    "secondary_color": "#5A4A3C",
+    "accent_color": "#8B4513",
+    "eye_color": "#654321",
+    "special_features": "A young scavenger (human); brave and curious",
+    "description": "A scavenger girl who befriends dragons. Once called Lizard.",
+    "main_detail": "Freedom is a young scavenger from the Indestructible City. Dragons first called her 'Lizard' because they didn't know her real name. She is brave, curious, and helps dragons and scavengers understand each other.",
+    "books": ["Dragonslayer", "Book 11", "Book 12", "Book 13", "Book 14", "Book 15"],
+    "fun_facts": [
+      "Scavengers are tiny humans in the Wings of Fire world.",
+      "Dragons used to call her 'Lizard' before they knew her real name.",
+      "She helps dragons and scavengers become friends."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Freedom",
+    "image": "",
+    "skip_image": true
+  },
+  {
+    "name": "Silverspot",
+    "tribe": "NightWing",
+    "main_color": "#0B0B14",
+    "secondary_color": "#2F3742",
+    "accent_color": "#C0C0C0",
+    "eye_color": "#C8C8D0",
+    "special_features": "Silver star-like scales under wings",
+    "description": "A NightWing soldier with silver markings.",
+    "main_detail": "Silverspot is a NightWing with the classic dark scales and silver underwing markings of her tribe.",
+    "books": ["Book 4", "Book 5"],
+    "fun_facts": [
+      "Silver scales on a NightWing's wings look like stars in the night sky.",
+      "NightWings used to live on a volcano island before moving to the rainforest.",
+      "Some NightWings can read minds and see the future."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Silverspot",
+    "image": "",
+    "skip_image": true
+  },
+  {
+    "name": "Onyx",
+    "tribe": "SandWing",
+    "main_color": "#2C2C2C",
+    "secondary_color": "#A88542",
+    "accent_color": "#FFD700",
+    "eye_color": "#8B4513",
+    "special_features": "SandWing/NightWing hybrid; black scales with sandy tones; venomous tail barb",
+    "description": "A SandWing and NightWing hybrid dragon.",
+    "main_detail": "Onyx is a hybrid dragon — part SandWing, part NightWing. She has features from both tribes: SandWing body shape and venomous tail with NightWing-dark scales.",
+    "books": ["Book 9", "Book 10"],
+    "fun_facts": [
+      "Hybrid dragons inherit traits from both of their tribes.",
+      "Her name comes from onyx, a deep black gemstone.",
+      "She is one of several hybrid dragons in the SandWing kingdom."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Onyx",
+    "image": "",
+    "skip_image": true
   }
 ]
