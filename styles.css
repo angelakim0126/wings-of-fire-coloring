@@ -71,16 +71,17 @@ header::before { left: max(2rem, calc(50% - 280px)); }
 header::after { right: max(2rem, calc(50% - 280px)); }
 
 .title-name {
-  margin: 0 0 0.2rem;
+  margin: 0 0 0.3rem;
   font-family: var(--serif);
-  font-size: clamp(1.4rem, 3.2vw, 2rem);
+  font-size: clamp(1.7rem, 4.4vw, 2.7rem);
   font-style: italic;
   font-weight: 700;
-  letter-spacing: 0.01em;
-  background: linear-gradient(135deg, var(--magic) 0%, var(--accent) 100%);
+  letter-spacing: 0.005em;
+  background: linear-gradient(135deg, #be185d 0%, #d4a017 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
 }
 
 header h1 {
