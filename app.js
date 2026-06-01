@@ -183,6 +183,17 @@ function makeImageWithFallback(character, wrapClass) {
   wrap.className = wrapClass;
   setTribeVars(wrap, character);
 
+  // Click-to-enlarge: clicking the image opens a full-screen lightbox.
+  // Clicking the placeholder (no real image) does nothing — the card's
+  // own click handler will open the details modal.
+  wrap.addEventListener("click", (e) => {
+    const img = wrap.querySelector("img");
+    if (img && img.src) {
+      e.stopPropagation();
+      openImageLightbox(character, img.src);
+    }
+  });
+
   const candidates = imageCandidates(character);
   let attempt = 0;
 
@@ -215,6 +226,59 @@ function makeImageWithFallback(character, wrapClass) {
   tryNext();
 
   return wrap;
+}
+
+function openImageLightbox(character, imageSrc) {
+  closeImageLightbox();
+
+  const backdrop = document.createElement("div");
+  backdrop.className = "lightbox-backdrop";
+  backdrop.id = "lightbox-backdrop";
+  backdrop.addEventListener("click", (e) => {
+    if (e.target === backdrop) closeImageLightbox();
+  });
+
+  const container = document.createElement("div");
+  container.className = "lightbox-container";
+
+  const closeBtn = document.createElement("button");
+  closeBtn.className = "lightbox-close";
+  closeBtn.setAttribute("aria-label", "Close");
+  closeBtn.textContent = "×";
+  closeBtn.addEventListener("click", closeImageLightbox);
+
+  const img = document.createElement("img");
+  img.className = "lightbox-image";
+  img.src = imageSrc;
+  img.alt = `${character.name} the ${character.tribe}`;
+  img.referrerPolicy = "no-referrer";
+
+  const caption = document.createElement("div");
+  caption.className = "lightbox-caption";
+  caption.textContent = character.name;
+
+  container.appendChild(closeBtn);
+  container.appendChild(img);
+  container.appendChild(caption);
+  backdrop.appendChild(container);
+  document.body.appendChild(backdrop);
+  document.body.style.overflow = "hidden";
+
+  document.addEventListener("keydown", lightboxEscClose);
+}
+
+function closeImageLightbox() {
+  const existing = document.getElementById("lightbox-backdrop");
+  if (existing) existing.remove();
+  document.removeEventListener("keydown", lightboxEscClose);
+  // Only restore body scroll if no other modal is also open
+  if (!document.getElementById("modal-backdrop")) {
+    document.body.style.overflow = "";
+  }
+}
+
+function lightboxEscClose(e) {
+  if (e.key === "Escape") closeImageLightbox();
 }
 
 function buildTribeFilters() {
