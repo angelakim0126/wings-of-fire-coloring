@@ -1931,10 +1931,10 @@
   {
     "name": "Beryl",
     "tribe": "SkyWing",
-    "main_color": "#C03933",
-    "secondary_color": "#E68A66",
-    "accent_color": "#7C1E1E",
-    "eye_color": "#FFD700",
+    "main_color": "#7F1D17",
+    "secondary_color": "#C94A22",
+    "accent_color": "#D6A62B",
+    "eye_color": "#F2C94C",
     "special_features": "SkyWing soldier",
     "description": "A SkyWing — fast and fiery.",
     "main_detail": "Beryl is a SkyWing dragon. SkyWings are known for being fast, strong flyers who can breathe fire.",
@@ -1948,15 +1948,15 @@
       "SkyWings have huge, powerful wings."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Beryl",
-    "image": ""
+    "image": "https://static.wikia.nocookie.net/wingsoffire/images/3/3c/BerylTemplateSkyla.png/revision/latest?cb=20260314095922"
   },
   {
     "name": "Snakeroot",
     "tribe": "LeafWing",
-    "main_color": "#2F5B2F",
-    "secondary_color": "#6B8E4E",
-    "accent_color": "#5C2A4A",
-    "eye_color": "#FFD700",
+    "main_color": "#183322",
+    "secondary_color": "#31583B",
+    "accent_color": "#B87412",
+    "eye_color": "#AFCB7A",
     "special_features": "LeafWing; can use leafspeak",
     "description": "A LeafWing from the Poison Jungle.",
     "main_detail": "Snakeroot is a LeafWing from the Poison Jungle. LeafWings can speak to plants and make them grow or attack.",
@@ -1971,6 +1971,6 @@
       "They live hidden in the Poison Jungle, which is dangerous to other tribes."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Snakeroot",
-    "image": ""
+    "image": "https://static.wikia.nocookie.net/wingsoffire/images/c/c3/SnakerootTemplateS978.png/revision/latest?cb=20260304160516"
   }
 ]
