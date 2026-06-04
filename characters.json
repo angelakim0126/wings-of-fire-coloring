@@ -1975,22 +1975,22 @@
   },
   {
     "name": "Tuatara",
-    "tribe": "NightWing",
-    "main_color": "#0B0B14",
-    "secondary_color": "#2D1B4E",
-    "accent_color": "#C0C0C0",
-    "eye_color": "#3CB371",
-    "special_features": "NightWing with silver star-scales (best guess — verify tribe)",
-    "description": "A NightWing dragon named after a reptile with a 'third eye.'",
-    "main_detail": "Tuatara is a NightWing dragon. Tuataras are real reptiles from New Zealand that have an extra 'eye' on top of their head — a fitting name for a NightWing!",
+    "tribe": "WildWing",
+    "main_color": "#7D5A3E",
+    "secondary_color": "#C8A87A",
+    "accent_color": "#3D2A1A",
+    "eye_color": "#9ACD32",
+    "special_features": "WildWing — a tribe of dragons who don't fit one of the ten standard tribes",
+    "description": "A WildWing — a dragon from the Court of Refuge.",
+    "main_detail": "Tuatara is a WildWing — one of the dragons who lives at the Court of Refuge on Dungeon Isle. WildWings are dragons who don't fit into one of the ten standard dragon tribes.",
     "books": [
       "Book 14",
       "Book 15"
     ],
     "fun_facts": [
       "Real tuataras live in New Zealand and have a tiny third eye on top of their heads.",
-      "NightWings have silver scales under their wings that look like stars.",
-      "Some NightWings can read minds and see the future."
+      "WildWings live at the Court of Refuge on Dungeon Isle.",
+      "They are a tribe of unique dragons who don't fit the usual ten tribes."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Tuatara",
     "image": ""

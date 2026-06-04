@@ -1,7 +1,7 @@
 const TRIBES = [
   "MudWing", "SandWing", "SkyWing", "SeaWing", "IceWing",
   "RainWing", "NightWing", "SilkWing", "HiveWing", "LeafWing",
-  "Hybrid"
+  "Hybrid", "WildWing"
 ];
 
 // Swatch labels per tribe — dragons use scale-based labels; if a future
