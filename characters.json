@@ -2019,10 +2019,10 @@
   {
     "name": "Monarch",
     "tribe": "SilkWing",
-    "main_color": "#E8741A",
-    "secondary_color": "#F4C06A",
-    "accent_color": "#1A1A1A",
-    "eye_color": "#5C2A0A",
+    "main_color": "#E77D1A",
+    "secondary_color": "#F4C038",
+    "accent_color": "#1F5F8F",
+    "eye_color": "#6B3A12",
     "special_features": "Four wings; silk-spinning wrists; orange and black like a monarch butterfly",
     "description": "A SilkWing with orange and black scales like a monarch butterfly.",
     "main_detail": "Monarch is a SilkWing dragon. Her name and colors come from the beautiful monarch butterfly — orange and black wings.",
@@ -2039,6 +2039,6 @@
       "They spin silk from their wrists once they reach age 6."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Monarch",
-    "image": ""
+    "image": "https://static.wikia.nocookie.net/wingsoffire/images/b/b6/Guide_Portrait_Monarch.jpg/revision/latest?cb=20231010013939"
   }
 ]
