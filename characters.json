@@ -1972,5 +1972,73 @@
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Snakeroot",
     "image": "https://static.wikia.nocookie.net/wingsoffire/images/c/c3/SnakerootTemplateS978.png/revision/latest?cb=20260304160516"
+  },
+  {
+    "name": "Tuatara",
+    "tribe": "NightWing",
+    "main_color": "#0B0B14",
+    "secondary_color": "#2D1B4E",
+    "accent_color": "#C0C0C0",
+    "eye_color": "#3CB371",
+    "special_features": "NightWing with silver star-scales (best guess — verify tribe)",
+    "description": "A NightWing dragon named after a reptile with a 'third eye.'",
+    "main_detail": "Tuatara is a NightWing dragon. Tuataras are real reptiles from New Zealand that have an extra 'eye' on top of their head — a fitting name for a NightWing!",
+    "books": [
+      "Book 14",
+      "Book 15"
+    ],
+    "fun_facts": [
+      "Real tuataras live in New Zealand and have a tiny third eye on top of their heads.",
+      "NightWings have silver scales under their wings that look like stars.",
+      "Some NightWings can read minds and see the future."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Tuatara",
+    "image": ""
+  },
+  {
+    "name": "Horizon",
+    "tribe": "Hybrid",
+    "main_color": "#B8A0C8",
+    "secondary_color": "#E8D8E8",
+    "accent_color": "#FFA07A",
+    "eye_color": "#5A7FA3",
+    "special_features": "Hybrid dragon — colorful like a sunrise",
+    "description": "A hybrid dragon with sunrise-colored scales.",
+    "main_detail": "Horizon is a hybrid dragon. Hybrids inherit traits from two different tribes, which can give them beautiful mixed colors.",
+    "books": [
+      "The Hybrid Prince"
+    ],
+    "fun_facts": [
+      "Horizons are where the sky and earth meet — beautiful for a hybrid name!",
+      "Hybrids combine features from two tribes.",
+      "Many hybrids live in the Court of Refuge."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Horizon",
+    "image": ""
+  },
+  {
+    "name": "Monarch",
+    "tribe": "SilkWing",
+    "main_color": "#E8741A",
+    "secondary_color": "#F4C06A",
+    "accent_color": "#1A1A1A",
+    "eye_color": "#5C2A0A",
+    "special_features": "Four wings; silk-spinning wrists; orange and black like a monarch butterfly",
+    "description": "A SilkWing with orange and black scales like a monarch butterfly.",
+    "main_detail": "Monarch is a SilkWing dragon. Her name and colors come from the beautiful monarch butterfly — orange and black wings.",
+    "books": [
+      "Book 11",
+      "Book 12",
+      "Book 13",
+      "Book 14",
+      "Book 15"
+    ],
+    "fun_facts": [
+      "Monarch butterflies are orange and black — a perfect name for a SilkWing!",
+      "SilkWings have four wings — twice as many as Pyrrhia dragons.",
+      "They spin silk from their wrists once they reach age 6."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Monarch",
+    "image": ""
   }
 ]
