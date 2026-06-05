@@ -2040,5 +2040,156 @@
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Monarch",
     "image": "https://static.wikia.nocookie.net/wingsoffire/images/b/b6/Guide_Portrait_Monarch.jpg/revision/latest?cb=20231010013939"
+  },
+  {
+    "name": "Precipice",
+    "tribe": "SkyWing",
+    "main_color": "#B22222",
+    "secondary_color": "#CD5C5C",
+    "accent_color": "#FFD700",
+    "eye_color": "#FF6347",
+    "special_features": "SkyWing",
+    "description": "A SkyWing — fierce and fast.",
+    "main_detail": "Precipice is a SkyWing. SkyWings are known for being the fastest flyers in Pyrrhia.",
+    "books": [
+      "The Hybrid Prince"
+    ],
+    "fun_facts": [
+      "A precipice is a steep cliff — fitting for a SkyWing who lives in the mountains.",
+      "SkyWings can breathe fire.",
+      "They live in the Sky Kingdom, high up in the mountains."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Precipice",
+    "image": ""
+  },
+  {
+    "name": "Sky",
+    "tribe": "SkyWing",
+    "main_color": "#FF7F50",
+    "secondary_color": "#FFD78F",
+    "accent_color": "#D9471E",
+    "eye_color": "#FFD700",
+    "special_features": "SkyWing dragonet; bonded with the scavenger Wren",
+    "description": "A young SkyWing — Wren's bonded scavenger companion.",
+    "main_detail": "Sky is a SkyWing dragonet who was raised by Wren, a scavenger. They are best friends and travel together across Pyrrhia.",
+    "books": [
+      "Dragonslayer",
+      "Book 11",
+      "Book 12"
+    ],
+    "fun_facts": [
+      "Sky was raised by a scavenger named Wren — a very rare friendship!",
+      "He has bright orange-and-yellow scales like a real sky at sunset.",
+      "He is the first SkyWing to befriend a scavenger."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Sky",
+    "image": ""
+  },
+  {
+    "name": "Wren",
+    "tribe": "Scavenger",
+    "main_color": "#E8C5A8",
+    "secondary_color": "#7C4A2A",
+    "accent_color": "#5C3317",
+    "eye_color": "#3D2612",
+    "special_features": "Scavenger girl; raised the SkyWing dragonet Sky",
+    "description": "A brave scavenger girl who is best friends with a SkyWing.",
+    "main_detail": "Wren is a scavenger (a human) who found and raised the dragonet Sky. She is fearless, clever, and one of the only scavengers who can befriend dragons.",
+    "books": [
+      "Dragonslayer",
+      "Book 11",
+      "Book 12"
+    ],
+    "fun_facts": [
+      "Wrens are tiny brown birds — a perfect name for a tiny scavenger.",
+      "She raised Sky from a hatchling.",
+      "She speaks Dragon — very rare for a scavenger!"
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Wren",
+    "image": ""
+  },
+  {
+    "name": "Ivy",
+    "tribe": "Scavenger",
+    "main_color": "#E8B79A",
+    "secondary_color": "#4A6B3A",
+    "accent_color": "#3A2A1C",
+    "eye_color": "#5C4A3C",
+    "special_features": "Scavenger from the Indestructible City; the Dragonslayer's daughter",
+    "description": "A clever scavenger girl from the Indestructible City.",
+    "main_detail": "Ivy is a scavenger from the Indestructible City. Her father is the famous scavenger 'Dragonslayer' — but Ivy doesn't believe dragons are all bad.",
+    "books": [
+      "Dragonslayer"
+    ],
+    "fun_facts": [
+      "Ivy is a climbing plant — fitting for a curious scavenger.",
+      "Her father killed a SandWing queen long ago.",
+      "She secretly wants to make friends with dragons."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Ivy",
+    "image": ""
+  },
+  {
+    "name": "Daffodil",
+    "tribe": "Scavenger",
+    "main_color": "#E8C5A8",
+    "secondary_color": "#FFD78F",
+    "accent_color": "#D9A017",
+    "eye_color": "#4A6B3A",
+    "special_features": "Scavenger; Ivy's friend",
+    "description": "A cheerful scavenger girl named after a flower.",
+    "main_detail": "Daffodil is a scavenger from the Indestructible City. She is Ivy's friend.",
+    "books": [
+      "Dragonslayer"
+    ],
+    "fun_facts": [
+      "Daffodils are bright yellow spring flowers.",
+      "She lives in the Indestructible City.",
+      "Scavengers are humans who live in towns and villages across Pyrrhia."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Daffodil",
+    "image": ""
+  },
+  {
+    "name": "Cinnamon",
+    "tribe": "Scavenger",
+    "main_color": "#D2A679",
+    "secondary_color": "#8B4513",
+    "accent_color": "#5C3317",
+    "eye_color": "#3D2612",
+    "special_features": "Scavenger; one of Wren's friends",
+    "description": "A scavenger friend of Wren's.",
+    "main_detail": "Cinnamon is a scavenger and one of Wren's friends.",
+    "books": [
+      "Dragonslayer"
+    ],
+    "fun_facts": [
+      "Cinnamon is a warm spice — fitting for a warm-hearted scavenger.",
+      "Scavengers live all over Pyrrhia in tiny villages.",
+      "Most scavengers are scared of dragons — but not Wren and her friends."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Cinnamon",
+    "image": ""
+  },
+  {
+    "name": "Leaf",
+    "tribe": "Scavenger",
+    "main_color": "#D2A679",
+    "secondary_color": "#5C7244",
+    "accent_color": "#8B4513",
+    "eye_color": "#4A3318",
+    "special_features": "Scavenger boy; brave traveler",
+    "description": "A brave young scavenger boy.",
+    "main_detail": "Leaf is a young scavenger boy. He travels far from his home village to find his missing sister.",
+    "books": [
+      "Dragonslayer"
+    ],
+    "fun_facts": [
+      "His name comes from forest leaves.",
+      "He is one of the bravest scavengers, going on long journeys.",
+      "Scavengers don't usually leave their villages — but Leaf does."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Leaf",
+    "image": ""
   }
 ]
