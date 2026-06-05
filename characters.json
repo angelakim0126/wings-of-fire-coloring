@@ -2191,5 +2191,70 @@
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Leaf",
     "image": ""
+  },
+  {
+    "name": "Royal",
+    "tribe": "Hybrid",
+    "main_color": "#9B7FB8",
+    "secondary_color": "#E8D8E8",
+    "accent_color": "#D9A24A",
+    "eye_color": "#5A7FA3",
+    "special_features": "Hybrid dragon (best guess — verify tribe mix)",
+    "description": "A hybrid dragon with regal coloring.",
+    "main_detail": "Royal is a hybrid dragon. Many hybrid dragons live at the Court of Refuge.",
+    "books": [
+      "The Hybrid Prince"
+    ],
+    "fun_facts": [
+      "Hybrid dragons have features from two different tribes.",
+      "His name suggests royal heritage.",
+      "Many hybrids live at the Court of Refuge on Dungeon Isle."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Royal",
+    "image": ""
+  },
+  {
+    "name": "Dugong",
+    "tribe": "SeaWing",
+    "main_color": "#5A7E8E",
+    "secondary_color": "#A8C5D1",
+    "accent_color": "#3A5260",
+    "eye_color": "#1E40AF",
+    "special_features": "SeaWing with glowing stripes",
+    "description": "A SeaWing named after the gentle sea mammal.",
+    "main_detail": "Dugong is a SeaWing dragon. SeaWings can breathe underwater and have glowing stripes for talking under the sea.",
+    "books": [
+      "Book 9",
+      "Book 14"
+    ],
+    "fun_facts": [
+      "Dugongs are real sea mammals — like sweet, gentle manatees.",
+      "SeaWings flash their glowing stripes to talk underwater.",
+      "SeaWings have webbed claws for swimming."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Dugong",
+    "image": ""
+  },
+  {
+    "name": "Taipan",
+    "tribe": "SandWing",
+    "main_color": "#D6B16E",
+    "secondary_color": "#F0E2C0",
+    "accent_color": "#5C2A1E",
+    "eye_color": "#3A2412",
+    "special_features": "SandWing with venomous tail barb",
+    "description": "A SandWing named after a deadly snake.",
+    "main_detail": "Taipan is a SandWing dragon. SandWings have venomous tail barbs — just like the deadly Australian snake she's named after.",
+    "books": [
+      "Book 10",
+      "Book 14"
+    ],
+    "fun_facts": [
+      "Taipans are some of the world's most venomous snakes — fitting for a SandWing!",
+      "All SandWings have a venomous barb at the end of their tail.",
+      "SandWings can also breathe fire."
+    ],
+    "wiki_url": "https://wingsoffire.fandom.com/wiki/Taipan",
+    "image": ""
   }
 ]
