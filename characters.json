@@ -2065,10 +2065,10 @@
   {
     "name": "Sky",
     "tribe": "SkyWing",
-    "main_color": "#FF7F50",
-    "secondary_color": "#FFD78F",
-    "accent_color": "#D9471E",
-    "eye_color": "#FFD700",
+    "main_color": "#D98F62",
+    "secondary_color": "#F2C2B3",
+    "accent_color": "#7A2C22",
+    "eye_color": "#8FC7CF",
     "special_features": "SkyWing dragonet; bonded with the scavenger Wren",
     "description": "A young SkyWing — Wren's bonded scavenger companion.",
     "main_detail": "Sky is a SkyWing dragonet who was raised by Wren, a scavenger. They are best friends and travel together across Pyrrhia.",
@@ -2083,15 +2083,15 @@
       "He is the first SkyWing to befriend a scavenger."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Sky",
-    "image": ""
+    "image": "https://static.wikia.nocookie.net/wingsoffire/images/6/6e/SkyTemplateLoopy.png/revision/latest?cb=20260410224742"
   },
   {
     "name": "Wren",
     "tribe": "Scavenger",
-    "main_color": "#E8C5A8",
-    "secondary_color": "#7C4A2A",
-    "accent_color": "#5C3317",
-    "eye_color": "#3D2612",
+    "main_color": "#9A5A38",
+    "secondary_color": "#F1D998",
+    "accent_color": "#3A2118",
+    "eye_color": "#5B321F",
     "special_features": "Scavenger girl; raised the SkyWing dragonet Sky",
     "description": "A brave scavenger girl who is best friends with a SkyWing.",
     "main_detail": "Wren is a scavenger (a human) who found and raised the dragonet Sky. She is fearless, clever, and one of the only scavengers who can befriend dragons.",
@@ -2106,15 +2106,15 @@
       "She speaks Dragon — very rare for a scavenger!"
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Wren",
-    "image": ""
+    "image": "https://static.wikia.nocookie.net/wingsoffire/images/6/67/WrenTopShot.png/revision/latest?cb=20200209055707"
   },
   {
     "name": "Ivy",
     "tribe": "Scavenger",
-    "main_color": "#E8B79A",
-    "secondary_color": "#4A6B3A",
-    "accent_color": "#3A2A1C",
-    "eye_color": "#5C4A3C",
+    "main_color": "#B96F3E",
+    "secondary_color": "#E987A7",
+    "accent_color": "#342233",
+    "eye_color": "#3A2217",
     "special_features": "Scavenger from the Indestructible City; the Dragonslayer's daughter",
     "description": "A clever scavenger girl from the Indestructible City.",
     "main_detail": "Ivy is a scavenger from the Indestructible City. Her father is the famous scavenger 'Dragonslayer' — but Ivy doesn't believe dragons are all bad.",
@@ -2127,7 +2127,7 @@
       "She secretly wants to make friends with dragons."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Ivy",
-    "image": ""
+    "image": "https://static.wikia.nocookie.net/wingsoffire/images/d/d9/IvyTopShot.png/revision/latest?cb=20260120145117"
   },
   {
     "name": "Daffodil",
@@ -2174,10 +2174,10 @@
   {
     "name": "Leaf",
     "tribe": "Scavenger",
-    "main_color": "#D2A679",
-    "secondary_color": "#5C7244",
-    "accent_color": "#8B4513",
-    "eye_color": "#4A3318",
+    "main_color": "#A35A36",
+    "secondary_color": "#EAD28F",
+    "accent_color": "#242018",
+    "eye_color": "#5A2F1D",
     "special_features": "Scavenger boy; brave traveler",
     "description": "A brave young scavenger boy.",
     "main_detail": "Leaf is a young scavenger boy. He travels far from his home village to find his missing sister.",
@@ -2190,7 +2190,7 @@
       "Scavengers don't usually leave their villages — but Leaf does."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Leaf",
-    "image": ""
+    "image": "https://static.wikia.nocookie.net/wingsoffire/images/d/db/LeafTopShot.png/revision/latest?cb=20200209055754"
   },
   {
     "name": "Royal",
@@ -2215,46 +2215,46 @@
   },
   {
     "name": "Dugong",
-    "tribe": "SeaWing",
-    "main_color": "#5A7E8E",
-    "secondary_color": "#A8C5D1",
-    "accent_color": "#3A5260",
-    "eye_color": "#1E40AF",
-    "special_features": "SeaWing with glowing stripes",
-    "description": "A SeaWing named after the gentle sea mammal.",
-    "main_detail": "Dugong is a SeaWing dragon. SeaWings can breathe underwater and have glowing stripes for talking under the sea.",
+    "tribe": "WildWing",
+    "main_color": "#9C4E25",
+    "secondary_color": "#78AA67",
+    "accent_color": "#1F4F58",
+    "eye_color": "#B9D160",
+    "special_features": "WildWing — a tribe of unique dragons at the Court of Refuge",
+    "description": "A WildWing named after the gentle sea mammal.",
+    "main_detail": "Dugong is a WildWing — one of the rare dragons who don't fit into the ten standard tribes. WildWings live at the Court of Refuge on Dungeon Isle.",
     "books": [
       "Book 9",
       "Book 14"
     ],
     "fun_facts": [
       "Dugongs are real sea mammals — like sweet, gentle manatees.",
-      "SeaWings flash their glowing stripes to talk underwater.",
-      "SeaWings have webbed claws for swimming."
+      "WildWings are dragons who don't fit into one of the ten usual tribes.",
+      "They live at the Court of Refuge on Dungeon Isle."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Dugong",
-    "image": ""
+    "image": "https://static.wikia.nocookie.net/wingsoffire/images/3/3b/DugongProfile.png/revision/latest?cb=20260501210419"
   },
   {
     "name": "Taipan",
-    "tribe": "SandWing",
-    "main_color": "#D6B16E",
-    "secondary_color": "#F0E2C0",
-    "accent_color": "#5C2A1E",
-    "eye_color": "#3A2412",
-    "special_features": "SandWing with venomous tail barb",
-    "description": "A SandWing named after a deadly snake.",
-    "main_detail": "Taipan is a SandWing dragon. SandWings have venomous tail barbs — just like the deadly Australian snake she's named after.",
+    "tribe": "WildWing",
+    "main_color": "#66B742",
+    "secondary_color": "#F0BE35",
+    "accent_color": "#0C4051",
+    "eye_color": "#79D7B8",
+    "special_features": "WildWing — a tribe of unique dragons at the Court of Refuge",
+    "description": "A WildWing named after a venomous snake.",
+    "main_detail": "Taipan is a WildWing — one of the dragons who don't belong to the ten standard tribes. WildWings live at the Court of Refuge.",
     "books": [
       "Book 10",
       "Book 14"
     ],
     "fun_facts": [
-      "Taipans are some of the world's most venomous snakes — fitting for a SandWing!",
-      "All SandWings have a venomous barb at the end of their tail.",
-      "SandWings can also breathe fire."
+      "Taipans are some of the world's most venomous snakes.",
+      "WildWings are unique dragons who don't fit into the usual ten tribes.",
+      "They live at the Court of Refuge on Dungeon Isle."
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Taipan",
-    "image": ""
+    "image": "https://static.wikia.nocookie.net/wingsoffire/images/1/10/TaipanProfile.png/revision/latest?cb=20260323154957"
   }
 ]
