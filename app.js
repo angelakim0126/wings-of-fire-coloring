@@ -70,6 +70,7 @@ function setTribeVars(el, character) {
   el.style.setProperty("--main-color", character.main_color);
   el.style.setProperty("--secondary-color", character.secondary_color);
   el.style.setProperty("--accent-color", character.accent_color);
+  el.style.setProperty("--eye-color", character.eye_color);
   el.style.setProperty("--tribe-color", `var(--${character.tribe})`);
 }
 
@@ -147,12 +148,78 @@ const DRAGON_SVG = `
   <ellipse cx="153" cy="221" rx="2.4" ry="3" fill="var(--accent-color)" opacity="0.55"/>
 </svg>`;
 
+// Chibi scavenger (human child) SVG, colored from the character's palette:
+//   main = skin tone, secondary = clothing, accent = hair, eye = iris color.
+// Used as the placeholder for Scavenger-tribe characters who have no image.
+const SCAVENGER_SVG = `
+<svg class="dragon-svg" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <!-- Hair back (frames head) -->
+  <ellipse cx="120" cy="95" rx="50" ry="52" fill="var(--accent-color)"/>
+
+  <!-- Head -->
+  <ellipse cx="120" cy="100" rx="42" ry="46" fill="var(--main-color)"/>
+
+  <!-- Hair bangs (front) -->
+  <path d="M 80 76 Q 100 60 120 65 Q 140 60 160 76 Q 160 90 148 88 Q 130 80 110 88 Q 92 90 80 88 Z"
+        fill="var(--accent-color)"/>
+
+  <!-- Ears -->
+  <ellipse cx="80" cy="108" rx="5" ry="9" fill="var(--main-color)"/>
+  <ellipse cx="160" cy="108" rx="5" ry="9" fill="var(--main-color)"/>
+
+  <!-- Eye whites -->
+  <ellipse cx="103" cy="106" rx="8" ry="10" fill="#ffffff"/>
+  <ellipse cx="137" cy="106" rx="8" ry="10" fill="#ffffff"/>
+
+  <!-- Iris (eye color) -->
+  <ellipse cx="103" cy="108" rx="5.5" ry="7.5" fill="var(--eye-color)"/>
+  <ellipse cx="137" cy="108" rx="5.5" ry="7.5" fill="var(--eye-color)"/>
+
+  <!-- Pupils -->
+  <ellipse cx="103" cy="109" rx="2.4" ry="4" fill="#1c1c1c"/>
+  <ellipse cx="137" cy="109" rx="2.4" ry="4" fill="#1c1c1c"/>
+
+  <!-- Eye sparkles -->
+  <circle cx="101" cy="104" r="1.6" fill="white"/>
+  <circle cx="135" cy="104" r="1.6" fill="white"/>
+
+  <!-- Cheek blush -->
+  <ellipse cx="90" cy="120" rx="6.5" ry="3.5" fill="#ff9090" opacity="0.5"/>
+  <ellipse cx="150" cy="120" rx="6.5" ry="3.5" fill="#ff9090" opacity="0.5"/>
+
+  <!-- Nose hint -->
+  <ellipse cx="120" cy="120" rx="2.5" ry="1.6" fill="var(--accent-color)" opacity="0.35"/>
+
+  <!-- Smile -->
+  <path d="M 110 132 Q 120 138 130 132" stroke="#1c1c1c" stroke-width="2"
+        stroke-linecap="round" fill="none"/>
+
+  <!-- Neck -->
+  <rect x="108" y="142" width="24" height="14" fill="var(--main-color)"/>
+
+  <!-- Shirt/body -->
+  <path d="M 70 168 Q 70 158 100 156 L 140 156 Q 170 158 170 168 L 170 215 Q 120 220 70 215 Z"
+        fill="var(--secondary-color)"/>
+
+  <!-- Arms (skin) -->
+  <ellipse cx="78" cy="180" rx="10" ry="22" fill="var(--main-color)" transform="rotate(12 78 180)"/>
+  <ellipse cx="162" cy="180" rx="10" ry="22" fill="var(--main-color)" transform="rotate(-12 162 180)"/>
+
+  <!-- Hands -->
+  <circle cx="72" cy="205" r="8.5" fill="var(--main-color)"/>
+  <circle cx="168" cy="205" r="8.5" fill="var(--main-color)"/>
+
+  <!-- Pants/legs -->
+  <ellipse cx="105" cy="226" rx="13" ry="12" fill="var(--accent-color)"/>
+  <ellipse cx="135" cy="226" rx="13" ry="12" fill="var(--accent-color)"/>
+</svg>`;
+
 function makePlaceholder(character) {
   const wrap = document.createElement("div");
   wrap.className = "placeholder-content";
   const svgWrap = document.createElement("div");
   svgWrap.className = "dragon-svg-wrap";
-  svgWrap.innerHTML = DRAGON_SVG;
+  svgWrap.innerHTML = (character.tribe === "Scavenger") ? SCAVENGER_SVG : DRAGON_SVG;
   const label = document.createElement("span");
   label.className = "placeholder-label";
   label.textContent = character.name;

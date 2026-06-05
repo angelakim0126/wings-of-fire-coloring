@@ -262,12 +262,23 @@ header h1 {
   position: relative;
   height: 200px;
   overflow: hidden;
+  /* Very subtle tribe-color tint so all cards read as the same neutral
+     canvas — keeps grid cohesive across different artists' canon art. */
   background: linear-gradient(135deg,
-    color-mix(in srgb, var(--main-color) 30%, white) 0%,
-    color-mix(in srgb, var(--secondary-color) 25%, white) 100%);
+    color-mix(in srgb, var(--main-color) 12%, #fafaf6) 0%,
+    color-mix(in srgb, var(--secondary-color) 10%, #fafaf6) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Cards that fall back to the SVG placeholder keep the bolder gradient
+   so the cute character SVG sits on a rich tribe-colored background. */
+.card-image-wrap:has(.placeholder-content),
+.modal-image-wrap:has(.placeholder-content) {
+  background: linear-gradient(135deg,
+    color-mix(in srgb, var(--main-color) 32%, white) 0%,
+    color-mix(in srgb, var(--secondary-color) 26%, white) 100%);
 }
 
 .card-image-wrap img {
@@ -275,12 +286,14 @@ header h1 {
   height: 100%;
   object-fit: contain;
   transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
-  padding: 0.5rem;
+  padding: 0.7rem;
   cursor: zoom-in;
+  filter: saturate(0.97) contrast(1.01);
 }
 
 .modal-image-wrap img {
   cursor: zoom-in;
+  filter: saturate(0.97) contrast(1.01);
 }
 
 .placeholder-content {
@@ -542,8 +555,8 @@ footer .disclaimer {
   height: 320px;
   overflow: hidden;
   background: linear-gradient(135deg,
-    color-mix(in srgb, var(--main-color) 30%, white) 0%,
-    color-mix(in srgb, var(--secondary-color) 25%, white) 100%);
+    color-mix(in srgb, var(--main-color) 12%, #fafaf6) 0%,
+    color-mix(in srgb, var(--secondary-color) 10%, #fafaf6) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
