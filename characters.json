@@ -2256,5 +2256,27 @@
     ],
     "wiki_url": "https://wingsoffire.fandom.com/wiki/Taipan",
     "image": "https://static.wikia.nocookie.net/wingsoffire/images/1/10/TaipanProfile.png/revision/latest?cb=20260323154957"
+  },
+  {
+    "name": "Isa",
+    "tribe": "Hybrid",
+    "main_color": "#E63946",
+    "secondary_color": "#F4A300",
+    "accent_color": "#6A4C93",
+    "eye_color": "#2A9D3F",
+    "special_features": "An all-tribe hybrid — has every power from every dragon tribe!",
+    "description": "The one and only Isa — a rainbow dragon with all the powers of every tribe.",
+    "main_detail": "Isa is a one-of-a-kind dragon created by Iris Juliet. She is a hybrid of ALL the dragon tribes, and she is the daughter of all the royals. Because of this, she has every special power that dragons can have — fire, frost, venom, animus magic, mind reading, leafspeak, color-changing scales, and more. There is no other dragon like her in all of Pyrrhia or Pantala.",
+    "books": [
+      "Iris's imagination ✨"
+    ],
+    "fun_facts": [
+      "Isa was dreamed up and drawn by Iris Juliet herself!",
+      "She is the only dragon who is part of every single tribe at once.",
+      "As the daughter of all the royals, she has every dragon power there is."
+    ],
+    "wiki_url": "",
+    "image": "images/isa.png",
+    "created_by": "Iris Juliet"
   }
 ]

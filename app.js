@@ -393,6 +393,14 @@ function makeSwatch(color, label) {
   return s;
 }
 
+// Special badge for original dragons created by a real person (e.g. Iris).
+function makeCreatorBadge(creator) {
+  const badge = document.createElement("div");
+  badge.className = "creator-badge";
+  badge.textContent = `✨ Created by ${creator} ✨`;
+  return badge;
+}
+
 function makeCard(character) {
   const card = document.createElement("article");
   card.className = "card";
@@ -427,6 +435,9 @@ function makeCard(character) {
 
   body.appendChild(name);
   body.appendChild(badge);
+  if (character.created_by) {
+    body.appendChild(makeCreatorBadge(character.created_by));
+  }
   body.appendChild(colorRow);
 
   card.appendChild(banner);
@@ -546,6 +557,9 @@ function openModal(character) {
 
   body.appendChild(name);
   body.appendChild(badge);
+  if (character.created_by) {
+    body.appendChild(makeCreatorBadge(character.created_by));
+  }
   body.appendChild(detail);
   body.appendChild(colorSection);
 
@@ -593,13 +607,16 @@ function openModal(character) {
     body.appendChild(special);
   }
 
-  const wiki = document.createElement("a");
-  wiki.className = "wiki-link";
-  wiki.href = character.wiki_url;
-  wiki.target = "_blank";
-  wiki.rel = "noopener noreferrer";
-  wiki.textContent = "More on the Wings of Fire Wiki →";
-  body.appendChild(wiki);
+  // Original dragons (e.g. Iris's own creations) have no wiki page — skip the link.
+  if (character.wiki_url) {
+    const wiki = document.createElement("a");
+    wiki.className = "wiki-link";
+    wiki.href = character.wiki_url;
+    wiki.target = "_blank";
+    wiki.rel = "noopener noreferrer";
+    wiki.textContent = "More on the Wings of Fire Wiki →";
+    body.appendChild(wiki);
+  }
 
   modal.appendChild(banner);
   modal.appendChild(closeBtn);

@@ -742,6 +742,34 @@ footer .disclaimer {
   .modal-name { font-size: 1.8rem; }
 }
 
+/* ===== Creator badge (for original dragons drawn by a real person) ===== */
+
+.creator-badge {
+  display: inline-block;
+  align-self: flex-start;
+  margin: 0.1rem 0 0.85rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: white;
+  background: linear-gradient(90deg, #e63946, #f4a300, #2a9d3f, #1982c4, #6a4c93);
+  background-size: 200% 100%;
+  animation: rainbow-shift 6s linear infinite;
+  box-shadow: 0 2px 8px rgba(106, 76, 147, 0.3);
+}
+
+@keyframes rainbow-shift {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+
+.modal-body .creator-badge {
+  font-size: 0.9rem;
+  margin: 0.2rem 0 1.2rem;
+}
+
 /* ===== Image lightbox (click to enlarge for drawing) ===== */
 
 .lightbox-backdrop {
