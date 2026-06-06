@@ -563,6 +563,39 @@ function openModal(character) {
   body.appendChild(detail);
   body.appendChild(colorSection);
 
+  // Life Stages — only for original dragons that have stage art (Iris's creations).
+  if (Array.isArray(character.life_stages) && character.life_stages.length) {
+    const stagesSection = document.createElement("section");
+    stagesSection.className = "info-section";
+    const stagesTitle = document.createElement("h3");
+    stagesTitle.className = "info-section-title";
+    stagesTitle.textContent = "Life stages 🥚 🐣 🐉";
+    const stagesRow = document.createElement("div");
+    stagesRow.className = "life-stages-row";
+    character.life_stages.forEach(stage => {
+      const item = document.createElement("div");
+      item.className = "life-stage";
+      const img = document.createElement("img");
+      img.className = "life-stage-img";
+      img.src = stage.image;
+      img.alt = `${character.name} as ${stage.label}`;
+      img.loading = "lazy";
+      img.addEventListener("click", (e) => {
+        e.stopPropagation();
+        openImageLightbox({ name: `${character.name} — ${stage.label}`, tribe: character.tribe }, stage.image);
+      });
+      const lbl = document.createElement("span");
+      lbl.className = "life-stage-label";
+      lbl.textContent = stage.label;
+      item.appendChild(img);
+      item.appendChild(lbl);
+      stagesRow.appendChild(item);
+    });
+    stagesSection.appendChild(stagesTitle);
+    stagesSection.appendChild(stagesRow);
+    body.appendChild(stagesSection);
+  }
+
   if (Array.isArray(character.fun_facts) && character.fun_facts.length) {
     const factsSection = document.createElement("section");
     factsSection.className = "info-section";

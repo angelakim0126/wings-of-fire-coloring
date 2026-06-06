@@ -742,6 +742,44 @@ footer .disclaimer {
   .modal-name { font-size: 1.8rem; }
 }
 
+/* ===== Life stages (egg / dragonet / adult — Iris's original dragons) ===== */
+
+.life-stages-row {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.life-stage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.life-stage-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+  background: #faf6f0;
+  border: 2px solid var(--card-border);
+  cursor: zoom-in;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.life-stage-img:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(60, 30, 80, 0.18);
+}
+
+.life-stage-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-soft);
+  letter-spacing: 0.02em;
+}
+
 /* ===== Creator badge (for original dragons drawn by a real person) ===== */
 
 .creator-badge {

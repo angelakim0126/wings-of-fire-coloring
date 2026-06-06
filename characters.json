@@ -2272,11 +2272,25 @@
     ],
     "fun_facts": [
       "Isa was dreamed up and drawn by Iris Juliet herself!",
-      "She is the only dragon who is part of every single tribe at once.",
+      "Iris drew Isa at every life stage — as an egg, a dragonet, and a grown-up dragon.",
       "As the daughter of all the royals, she has every dragon power there is."
     ],
     "wiki_url": "",
-    "image": "images/isa.png",
-    "created_by": "Iris Juliet"
+    "image": "images/isa-adult.png",
+    "created_by": "Iris Juliet",
+    "life_stages": [
+      {
+        "label": "🥚 Egg",
+        "image": "images/isa-egg.png"
+      },
+      {
+        "label": "🐣 Dragonet",
+        "image": "images/isa-dragonet.png"
+      },
+      {
+        "label": "🐉 Adult",
+        "image": "images/isa-adult.png"
+      }
+    ]
   }
 ]
