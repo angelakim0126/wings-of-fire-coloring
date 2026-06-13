@@ -2378,22 +2378,43 @@
     "image": ""
   },
   {
-    "name": "Hicubus",
-    "tribe": "Hybrid",
-    "main_color": "#5A4A7A",
-    "secondary_color": "#9B8AC0",
-    "accent_color": "#2A2438",
-    "eye_color": "#C77FD4",
-    "special_features": "A mysterious dragon — tribe to be confirmed",
-    "description": "A mysterious dragon. Tribe still to be decided!",
-    "main_detail": "Hicubus is a mystery dragon — we don't know the tribe yet! Tell us what tribe Hicubus belongs to.",
+    "name": "Hibiscus",
+    "tribe": "RainWing",
+    "main_color": "#E84A5F",
+    "secondary_color": "#FF8FA3",
+    "accent_color": "#FFD166",
+    "eye_color": "#2E8B57",
+    "special_features": "Color-changing scales; prehensile tail",
+    "description": "A RainWing named after the bright tropical hibiscus flower.",
+    "main_detail": "Hibiscus is a RainWing. Like all RainWings, her scales change color with her mood — and she's named after the big, bright hibiscus flowers that grow in the rainforest.",
     "books": [
       "Fan creation"
     ],
     "fun_facts": [
-      "Hicubus's tribe is still a secret!",
-      "Some dragons are hybrids of two or more tribes.",
-      "What special powers do you think Hicubus should have?"
+      "Hibiscus flowers are big, bright tropical blooms — often red, pink, or orange.",
+      "RainWings' scales shift through every color of the rainbow.",
+      "RainWings live in the rainforest with Queen Glory."
+    ],
+    "wiki_url": "",
+    "image": ""
+  },
+  {
+    "name": "Dolphin",
+    "tribe": "SeaWing",
+    "main_color": "#2A6F9E",
+    "secondary_color": "#9ED3E8",
+    "accent_color": "#D5F0FA",
+    "eye_color": "#1E40AF",
+    "special_features": "Glowing stripes; webbed claws; can breathe underwater",
+    "description": "A SeaWing named after the playful sea animal.",
+    "main_detail": "Dolphin is a SeaWing. SeaWings can breathe underwater and flash their glowing stripes to talk beneath the waves.",
+    "books": [
+      "Fan creation"
+    ],
+    "fun_facts": [
+      "Dolphins are super smart, playful sea animals.",
+      "SeaWings light up their stripes to talk underwater — a language called Aquatic.",
+      "SeaWings have webbed claws that help them swim fast."
     ],
     "wiki_url": "",
     "image": ""
