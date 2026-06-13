@@ -1,7 +1,7 @@
 const TRIBES = [
   "MudWing", "SandWing", "SkyWing", "SeaWing", "IceWing",
   "RainWing", "NightWing", "SilkWing", "HiveWing", "LeafWing",
-  "Hybrid", "WildWing", "Scavenger"
+  "Hybrid", "WildWing", "Scavenger", "BeetleWing"
 ];
 
 // Swatch labels per tribe. Scavengers are humans, so their labels match

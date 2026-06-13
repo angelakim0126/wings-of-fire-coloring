@@ -2292,5 +2292,110 @@
         "image": "images/isa-adult.png"
       }
     ]
+  },
+  {
+    "name": "Darkling",
+    "tribe": "BeetleWing",
+    "main_color": "#1F3D33",
+    "secondary_color": "#2E7D6B",
+    "accent_color": "#0C1A14",
+    "eye_color": "#7FE3C0",
+    "special_features": "A BeetleWing — shiny, beetle-like scales",
+    "description": "A BeetleWing dragon with dark shiny scales.",
+    "main_detail": "Darkling is a BeetleWing. BeetleWings have glossy, jewel-like scales that shimmer like a beetle's shell.",
+    "books": [
+      "Fan creation"
+    ],
+    "fun_facts": [
+      "Beetles have hard, shiny shells in many colors.",
+      "Darkling has the darkest, shiniest scales of her tribe.",
+      "BeetleWings are not one of the ten original dragon tribes."
+    ],
+    "wiki_url": "",
+    "image": ""
+  },
+  {
+    "name": "Sorrel",
+    "tribe": "RainWing",
+    "main_color": "#2E8B57",
+    "secondary_color": "#9ACD32",
+    "accent_color": "#FF6B9D",
+    "eye_color": "#FFD700",
+    "special_features": "Color-changing scales; prehensile tail",
+    "description": "A RainWing whose scales change with her mood.",
+    "main_detail": "Sorrel is a RainWing. Like all RainWings, her scales change color depending on how she feels.",
+    "books": [
+      "Fan creation"
+    ],
+    "fun_facts": [
+      "Sorrel is a leafy green plant with a lemony taste.",
+      "RainWings can hang from their tails like monkeys.",
+      "Their scales shift through every color of the rainbow."
+    ],
+    "wiki_url": "",
+    "image": ""
+  },
+  {
+    "name": "Magnolia",
+    "tribe": "BeetleWing",
+    "main_color": "#5C3A6E",
+    "secondary_color": "#C77FD4",
+    "accent_color": "#2E7D6B",
+    "eye_color": "#7FE3C0",
+    "special_features": "A BeetleWing — iridescent purple-green scales",
+    "description": "A BeetleWing dragon with shimmery purple scales.",
+    "main_detail": "Magnolia is a BeetleWing. Her scales shimmer like a jewel beetle, glowing purple and green in the light.",
+    "books": [
+      "Fan creation"
+    ],
+    "fun_facts": [
+      "Magnolias are big beautiful flowers, often pink or white.",
+      "BeetleWing scales catch the light like a real beetle's shell.",
+      "BeetleWings are not one of the ten original dragon tribes."
+    ],
+    "wiki_url": "",
+    "image": ""
+  },
+  {
+    "name": "Euphoria",
+    "tribe": "LeafWing",
+    "main_color": "#3A6B3A",
+    "secondary_color": "#8DBE55",
+    "accent_color": "#FFB6C1",
+    "eye_color": "#FFD700",
+    "special_features": "Leafspeak; leaf-shaped scales",
+    "description": "A joyful LeafWing who loves the forest.",
+    "main_detail": "Euphoria is a LeafWing. LeafWings can speak to plants and have leaf-shaped scales for camouflage.",
+    "books": [
+      "Fan creation"
+    ],
+    "fun_facts": [
+      "Euphoria means a feeling of great happiness!",
+      "LeafWings can make plants grow and move with leafspeak.",
+      "They hid in the Poison Jungle for fifty years."
+    ],
+    "wiki_url": "",
+    "image": ""
+  },
+  {
+    "name": "Hicubus",
+    "tribe": "Hybrid",
+    "main_color": "#5A4A7A",
+    "secondary_color": "#9B8AC0",
+    "accent_color": "#2A2438",
+    "eye_color": "#C77FD4",
+    "special_features": "A mysterious dragon — tribe to be confirmed",
+    "description": "A mysterious dragon. Tribe still to be decided!",
+    "main_detail": "Hicubus is a mystery dragon — we don't know the tribe yet! Tell us what tribe Hicubus belongs to.",
+    "books": [
+      "Fan creation"
+    ],
+    "fun_facts": [
+      "Hicubus's tribe is still a secret!",
+      "Some dragons are hybrids of two or more tribes.",
+      "What special powers do you think Hicubus should have?"
+    ],
+    "wiki_url": "",
+    "image": ""
   }
 ]
