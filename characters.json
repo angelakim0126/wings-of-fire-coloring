@@ -2358,21 +2358,21 @@
   },
   {
     "name": "Euphoria",
-    "tribe": "LeafWing",
-    "main_color": "#3A6B3A",
-    "secondary_color": "#8DBE55",
-    "accent_color": "#FFB6C1",
-    "eye_color": "#FFD700",
-    "special_features": "Leafspeak; leaf-shaped scales",
-    "description": "A joyful LeafWing who loves the forest.",
-    "main_detail": "Euphoria is a LeafWing. LeafWings can speak to plants and have leaf-shaped scales for camouflage.",
+    "tribe": "BeetleWing",
+    "main_color": "#E8508C",
+    "secondary_color": "#FFC24C",
+    "accent_color": "#2E7D6B",
+    "eye_color": "#7FE3C0",
+    "special_features": "Four wings; brightly colored; hatches wingless then grows wings",
+    "description": "A BeetleWing — a beautiful, brightly colored four-winged dragon.",
+    "main_detail": "Euphoria is a BeetleWing, an ancient and very beautiful tribe from Pantala that lived around two thousand years ago. BeetleWings had four wings in dazzling colors, and were the ancestors of today's SilkWings and HiveWings.",
     "books": [
-      "Fan creation"
+      "Legends: Darkstalker"
     ],
     "fun_facts": [
-      "Euphoria means a feeling of great happiness!",
-      "LeafWings can make plants grow and move with leafspeak.",
-      "They hid in the Poison Jungle for fifty years."
+      "BeetleWings had four wings and were brightly, beautifully colored.",
+      "Clearsight thought BeetleWings were even more beautiful than RainWings!",
+      "Euphoria means a feeling of great happiness — a joyful name for a BeetleWing!"
     ],
     "wiki_url": "",
     "image": ""
